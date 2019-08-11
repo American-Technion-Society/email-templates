@@ -7,24 +7,19 @@ This repo included all the email code for revision history.
 #### Bulletproof Button
 
 ```html
-<!-- START CTA BUTTON, make sure to update both links and adjust both widths as needed -->
-<!-- When changing the button color, please be sure to update both the fillcolor and the background-color -->
-<div align="center">
-	<!--[if mso]>
-	<v:rect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.ats.org" linkname="Body Button" style="height:50px;v-text-anchor:middle;width:200px;" stroke="f" fillcolor="#208283">
-	<w:anchorlock/>
-	<center>
-	<![endif]-->
-	<a
-		href="https://www.ats.org"
-		linkname="Body Button"
-		style="background-color:#208283;color:#ffffff;display:inline-block;font-size:18px;font-family:Arial, sans-serif;font-weight:bold;line-height:50px;text-align:center;text-decoration:none;width:200px;-webkit-text-size-adjust:none;"
-		>Learn More</a
-	>
-	<!--[if mso]>
-	</center>
-	</v:rect>
-<![endif]-->
-</div>
-<!-- END CTA BUTTON -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0" role="button">
+	<tr>
+		<td>
+			<table border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td align="center" bgcolor="#208283">
+						<a href="https://litmus.com" target="_blank" style="font-family: Arial, sans-serif; color: #ffffff; padding: 12px 18px; border: 1px solid #20828; display: inline-block;font-size:18px;font-weight:bold;text-align:center;text-decoration:none;text-transform: uppercase;"
+							>learn more</a
+						>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
 ```
