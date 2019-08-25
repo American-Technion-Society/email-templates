@@ -19,17 +19,16 @@ This repository includes all the email code for revision history, a guide to usi
 
 ## Todo list
 
-1. Templates
-   1. Newsletter
-   2. Alumni eNews
-   3. Alumni Event
-   4. Alumni Letter w/o image
-   5. Alumni Letter w/ image
-2. Test
+1. Test
    1. Gmail
    2. Outlook
    3. Apple Mail
    4. Yahoo
+2. Templates
+   1. Alumni eNews
+   2. Alumni Event
+   3. Alumni Letter w/o image
+   4. Alumni Letter w/ image
 
 ## Useful URLs
 
@@ -276,5 +275,4 @@ Below you will find snippets of code that you can place within your email templa
 	</tbody>
 </table>
 <!-- END OF SHARE SECTION -->
-
 ```
