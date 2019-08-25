@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ATS",
+		"markdownlint.config": {
+			"MD010": false
+		},
+		"htmlhint.options": { "doctype-first": false }
+	}
+}

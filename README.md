@@ -1,30 +1,30 @@
-#2019 ATS Email Templates
+# 2019 ATS Email Templates
 
 This repository includes all the email code for revision history, a guide to using the email templates, useful snippets and tips.
 
-1. [Todo list](#todo-list)
-2. [Useful URLs](#useful-urls)
-	1. [Logos](#logos)
-	2. [Icons](#icons)
-	3. [Images](#images)
-3. [FAQ](#faq)
-4. [Code Snippets](#code-snippets)
-	1. [Image Banner](#image-banner)
-	2. [Bulletproof Button](#bulletproof-button)
-	3. [Donation Box](#donation-box)
-	4. [Footer](#footer)
-	5. [Mission Footer](#mission-footer)
-	6. [Social Share](#social-share)
+1. [2019 ATS Email Templates](#2019-ats-email-templates)
+	1. [Todo list](#todo-list)
+	2. [Useful URLs](#useful-urls)
+		1. [Logos](#logos)
+		2. [Icons](#icons)
+		3. [Images](#images)
+	3. [FAQ](#faq)
+	4. [Code Snippets](#code-snippets)
+		1. [Image Banner](#image-banner)
+		2. [Bulletproof Button](#bulletproof-button)
+		3. [Donation Box](#donation-box)
+		4. [Footer](#footer)
+		5. [Mission Footer](#mission-footer)
+		6. [Social Share](#social-share)
 
 ## Todo list
 
 1. Templates
    1. Newsletter
-   2. Callout
-   3. Alumni eNews
-   4. Alumni Event
-   5. Alumni Letter w/o image
-   6. Alumni Letter w/ image
+   2. Alumni eNews
+   3. Alumni Event
+   4. Alumni Letter w/o image
+   5. Alumni Letter w/ image
 2. Test
    1. Gmail
    2. Outlook
@@ -38,6 +38,7 @@ This repository includes all the email code for revision history, a guide to usi
 `http://support.ats.org/images/content/pagebuilder/ATS-logo-blue.png`
 
 ### Icons
+
 `https://secure2.convio.net/ats/images/content/pagebuilder/footer-facebook.png`
 `https://secure2.convio.net/ats/images/content/pagebuilder/footer-twitter.png`
 `https://secure2.convio.net/ats/images/content/pagebuilder/footer-instagram.png`
@@ -111,7 +112,7 @@ Below you will find snippets of code that you can place within your email templa
 			</td>
 		</tr>
 		<!-- END OF MESSAGE SECTION -->
-		<tr>
+        <tr>
 			<td align="center" style="text-align:center;font-family: Arial,'Helvetica Neue',sans-serif;font-size:12px;color:#f3f3f3;line-height:18px;padding: 0 50px 30px 50px;">
 				<!-- START OF BUTTON SECTION -->
 				<table border="0" cellspacing="0" cellpadding="0" role="button">
@@ -277,4 +278,3 @@ Below you will find snippets of code that you can place within your email templa
 <!-- END OF SHARE SECTION -->
 
 ```
-
