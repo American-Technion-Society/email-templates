@@ -9,6 +9,10 @@
 		"markdownlint.config": {
 			"MD010": false
 		},
-		"htmlhint.options": { "doctype-first": false }
+		"htmlhint.options": {
+			"doctype-first": false
+		},
+		"editor.formatOnSave": false,
+		"editor.formatOnPaste": true
 	}
 }
