@@ -44,7 +44,7 @@ This repository includes all the email code for revision history, a guide to usi
 
 ### Images
 
-`https://secure2.convio.net/ats/images/content/pagebuilder/Israel-Parade-2019-center.jpg`
+`https://placeimg.com/640/200/arch`
 `https://secure2.convio.net/ats/images/content/pagebuilder/Sznitman-Headshot-web.jpg`
 
 ## FAQ
@@ -70,7 +70,7 @@ Below you will find snippets of code that you can place within your email templa
 	<td>
 		<!-- START CENTERED IMAGE -->
 		<div align="center" style="margin: 20px 0;">
-			<a href="https://www.ats.org"><img src="https://secure2.convio.net/ats/images/content/pagebuilder/Israel-Parade-2019-center.jpg" width="600" class="image-resize" border="0" alt="Image"/></a>
+			<a href="https://www.ats.org"><img src="https://placeimg.com/640/200/arch" width="600" class="image-resize" border="0" alt="Image"/></a>
 		</div>
 		<!-- END CENTERED IMAGE -->
 	</td>

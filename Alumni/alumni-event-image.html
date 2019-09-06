@@ -92,6 +92,18 @@
 					padding-right: 10px !important;
 					padding-left: 10px !important;
 				}
+				td.enews-heading h3 {
+					font-size:20px !important;
+				}
+				td.speaker-img {
+					width:340px !important;
+					text-align: center !important;
+					margin-top:10px !important;
+				}
+				td.speaker-info {
+					width:95% !important;
+					text-align:center !important;
+				}
 				.image-resize {
 					width: 100% !important;
 				}
@@ -132,12 +144,21 @@
 				<tr>
 					<td align="center" style="padding-top:15px;" class="logo-spacing">
 						<!-- START LOGO IMAGE -->
-						<a href="http://ats.org"><img alt="American Technion Society" src="http://support.ats.org/images/content/pagebuilder/alumni-logo.png" border="0" width="200" style="display:block;"/></a>
+						<a href="http://ats.org"><img alt="American Technion Society" src="http://support.ats.org/images/content/pagebuilder/alumni-logo.png" border="0" width="150" style="display:block;"/></a>
 						<!-- END LOGO IMAGE -->
 					</td>
 				</tr>
 				<tr>
-					<td class="emailbodytext" style="color:#3c3532;font-family: Arial, Helvetica, sans-serif;font-size:18px;line-height:26px;padding:15px 0 20px 0; valign="top">
+					<td>
+						<!-- START CENTERED IMAGE -->
+						<div align="center" style="margin: 10px 0;">
+							<a href="https://www.ats.org"><img src="https://placeimg.com/640/200/arch" width="600" class="image-resize" border="0" alt="Image"/></a>
+						</div>
+						<!-- END CENTERED IMAGE -->
+					</td>
+				</tr>
+				<tr>
+					<td class="emailbodytext" style="color:#3c3532;font-family: Arial, Helvetica, sans-serif;font-size:18px;line-height:26px;padding:15px 0 20px 0;" valign="top">
 						<!-- START BODY CONTENT -->
 
 						<!-- START OF EVENT INTRO SECTION -->
@@ -188,28 +209,27 @@
 						<!-- END OF EVENT SECTION -->
 						<!-- START OF EVENT SPEAKER SECTION -->
 						<table width="100%" border="0" cellspacing="0" cellpadding="0" role="button" style="margin: 20px 0;">
-							<tbody>
-								<tr>
-									<td align="center" style="color:#3c3532;font-family: Arial,'Helvetica Neue',sans-serif;">
-										<div style="color: #d1803e;font-size:22px;line-height:26px;margin-bottom: 20px;">
-											<h4>Featuring</h4>
-										</div>
-										<table width="90%" border="0" cellspacing="0" cellpadding="0" bgcolor="#f3f3f3">
-											<tr>
-												<td align="left" style="color:#3c3532;font-family: Arial,'Helvetica Neue',sans-serif;font-size:18px;line-height:26px;">
-													<div class="left-event-container" style="float:left;width:20%;">
-														<img style="max-height: 100%" src="https://secure2.convio.net/ats/images/content/pagebuilder/Sznitman-Headshot-web.jpg" alt="Guest Speaker: Josué Sznitman" />
-													</div>
-													<div class="left-event-container" style="float:right;width:60%;padding:20px 10px 0 0;">
-														<h4 style="color: #d1803e;">Dr. Tomer Morad</h4>
-														<p>Director, Allen and Jewel Prince Center for Neurodegenerative Disorders of the Brain, Ruth and Bruce Rappaport Faculty of Medicine, TechnionIsrael Institute of Technology.</p>
-													</div>
-												</td>
-											</tr>
-										</table>
-									</td>
-								</tr>
-							</tbody>
+							<tr>
+								<td align="center" style="color:#3c3532;font-family: Arial,'Helvetica Neue',sans-serif;">
+									<div style="color: #2c3b91;font-size:22px;line-height:26px;margin-bottom: 20px;">
+										<h4>Featuring</h4>
+									</div>
+									<table width="90%" border="0" cellspacing="0" cellpadding="0" bgcolor="#f3f3f3">
+										<tr>
+											<td class="speaker-img" style="color:#3c3532;font-family: Arial,'Helvetica Neue',sans-serif;font-size:18px;line-height:26px;float:left;">
+												<img style="max-width:100%;" src="https://secure2.convio.net/ats/images/content/pagebuilder/Sznitman-Headshot-web.jpg" alt="Guest Speaker: Josué Sznitman" />
+											</td>
+											<td class="speaker-info" width="60%" style="color:#3c3532;font-family: Arial,'Helvetica Neue',sans-serif;font-size:18px;line-height:26px;float:right;padding:20px 10px 0 0;">
+												<div>
+													<h4>Dr. Tomer Morad</h4>
+													<!-- CHARACTER COUNT SHOULD BE BELOW 186 -->
+													<p>Director, Allen and Jewel Prince Center for Neurodegenerative Disorders of the Brain, Ruth and Bruce Rappaport Faculty of Medicine, TechnionIsrael Institute of Technology lorem lorem iega.</p>
+												</div>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
 						</table>
 						<!-- END OF THE EVENT SPEAKER SECTION -->
 						<!-- START OF EVENT BODY SECTION -->
