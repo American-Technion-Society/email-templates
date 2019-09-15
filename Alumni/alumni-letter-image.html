@@ -3,6 +3,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="width=device-width" />
+		<meta name="x-apple-disable-message-reformatting" />
 		<title>ATS Email</title>
 		<style type="text/css">
 			h1,
@@ -17,6 +18,7 @@
 			p {
 				margin-top: 0;
 				margin-bottom: 20px;
+				font-size: 18px;
 			}
 
 			body {
@@ -72,12 +74,25 @@
 			li {
 				margin-bottom: 15px;
 				font-family: Arial, Helvetica, sans-serif;
-				font-size: 16px;
+				font-size: 18px;
 				line-height: 22px;
 				list-style-type: square;
 			}
 
 			@media screen and (max-width: 480px) {
+				p {
+					font-size: 26px !important;
+					line-height: 38px !important;
+				}
+				h4 {
+					font-size: 30px !important;
+					line-height: 40px !important;
+				}
+				span.btn {
+					font-size: 28px;
+					padding: 20px;
+					line-height: 42px;
+				}
 				table.emailwrapto100pc {
 					width: 100% !important;
 					white-space: inherit !important;
@@ -87,10 +102,8 @@
 					padding-left: 10px !important;
 				}
 				td.emailbodytext {
-					font-size: 15px !important;
-					line-height: 23px !important;
-					padding-right: 10px !important;
-					padding-left: 10px !important;
+					padding-right: 40px !important;
+					padding-left: 40px !important;
 				}
 				td.enews-heading h3 {
 					font-size:20px !important;
@@ -103,6 +116,14 @@
 				td.speaker-info {
 					width:95% !important;
 					text-align:center !important;
+				}
+				.outer-sidebox,
+				.inner-sidebox {
+					float: none !important;
+					width: 100% !important;
+				}
+				td.sidebox-padding {
+					padding-left: 0 !important;
 				}
 				.image-resize {
 					width: 100% !important;
@@ -169,23 +190,24 @@
 
 						<p>Phasellus nisl ante, vestibulum eu gravida vel, bibendum at sem. Nullam in ex eu odio congue venenatis. Fusce pellentesque, risus ut eleifend pellentesque, elit nunc placerat risus, in gravida purus lectus at felis. Suspendisse vulputate, risus a elementum accumsan, odio orci cursus est, at sollicitudin enim justo et lorem.</p>
 
-						<!-- START OF BUTTON -->
-						<div style="Margin: 0 0 20px 0;">
+						<!-- START OF BODY BUTTON -->
+						<div align="center">
 							<table width="100%" border="0" cellspacing="0" cellpadding="0" role="button">
 								<tr>
 									<td align="center">
 										<table border="0" cellspacing="0" cellpadding="0">
 											<tr>
 												<td align="center" bgcolor="#d1803e">
-													<a href="https://ats.org" target="_blank" style="font-family: Arial, sans-serif; color: #ffffff; padding: 12px 18px; border: 1px solid #d1803e; display: inline-block;font-size:18px;font-weight:bold;text-align:center;text-decoration:none;text-transform: uppercase;">learn more</a>
+													<a href="https://ats.org" target="_blank" style="font-family: Arial, sans-serif; color: #ffffff; padding: 12px 18px; border: 1px solid #d1803e; display: inline-block;font-size:18px;font-weight:bold;text-align:center;text-decoration:none;text-transform: uppercase;"><span class="btn">learn more</span></a>
 												</td>
 											</tr>
 										</table>
 									</td>
 								</tr>
 							</table>
+							<br />
 						</div>
-						<!-- END OF BUTTON -->
+						<!-- END OF BODY BUTTON -->
 
 
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt vestibulum ante, nec condimentum turpis aliquet et. Sed eget interdum eros. In sagittis justo nunc.</p>
@@ -195,6 +217,7 @@
 						<p>Thanks you,</p>
 
 						<!-- START SIGNATURE PHOTO, NAME, TITLE -->
+						<p><img src="https://placeimg.com/110/150/people" alt="Zahava Bar-Nir" width="110"></p>
 						<p><strong>Zahava Bar-Nir<br />
 						National President of the Board<br />
 						American Technion Society</strong></p>
@@ -219,10 +242,10 @@
 					<tr>
 						<td align="center">
 							<!-- START OF BUTTON SECTION -->
-							<div>
+							<div align="center">
 								<table width="100%" border="0" cellspacing="0" cellpadding="0" role="button">
 									<tr>
-										<td align="center" style="padding: 0 0 20px 0;">
+										<td align="center">
 											<table border="0" cellspacing="0" cellpadding="0" role="button">
 												<tr>
 													<td align="center" bgcolor="#d1803e">
@@ -233,6 +256,7 @@
 										</td>
 									</tr>
 								</table>
+								<br />
 							</div>
 							<!-- END OF BUTTON SECTION -->
 						</td>
