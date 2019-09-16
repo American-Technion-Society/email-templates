@@ -16,6 +16,7 @@
 		"editor.formatOnPaste": true,
 		"css.lint.important": "ignore",
 		"css.lint.boxModel": "ignore",
-		"css.lint.float": "ignore"
+		"css.lint.float": "ignore",
+		"liveServer.settings.port": 5505
 	}
 }

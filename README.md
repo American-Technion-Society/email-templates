@@ -19,16 +19,9 @@ This repository includes all the email code for revision history, a guide to usi
 
 ## Todo list
 
-1. Test
-   1. Gmail
-   2. Outlook
-   3. Apple Mail
-   4. Yahoo
-2. Templates
+1. Templates
    1. Alumni eNews
    2. Alumni Event
-   3. Alumni Letter w/o image
-   4. Alumni Letter w/ image
 
 ## Useful URLs
 
@@ -103,7 +96,7 @@ Below you will find snippets of code that you can place within your email templa
 	<tbody>
 		<!-- START OF MESSAGE SECTION -->
 		<tr>
-			<td align="center" class="footer-text" style="color:#f3f3f3;font-family: Arial,'Helvetica Neue',sans-serif;padding: 30px 50px 20px 50px;">
+			<td align="center" class="footer-text" style="color:#f3f3f3;font-family: Arial,Helvetica,sans-serif;padding: 30px 50px 20px 50px;">
 				<div style="font-size:16px;line-height:25px">
 					<h4 style="font-size:20px;margin-bottom: 15px;">Make a gift to the Technion Fund today!</h4>
 					<p>The Technion is contributing to Israel and the global good in unprecedented ways. Help us ensure its continued advancement as a world-class institution of higher education.</p>
@@ -112,7 +105,7 @@ Below you will find snippets of code that you can place within your email templa
 		</tr>
 		<!-- END OF MESSAGE SECTION -->
         <tr>
-			<td align="center" style="text-align:center;font-family: Arial,'Helvetica Neue',sans-serif;font-size:12px;color:#f3f3f3;line-height:18px;padding: 0 50px 30px 50px;">
+			<td align="center" style="text-align:center;font-family: Arial,Helvetica,sans-serif;font-size:12px;color:#f3f3f3;line-height:18px;padding: 0 50px 30px 50px;">
 				<!-- START OF BUTTON SECTION -->
 				<table border="0" cellspacing="0" cellpadding="0" role="button">
 					<tr>
@@ -143,11 +136,11 @@ Below you will find snippets of code that you can place within your email templa
 <table align="center" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" width="600" bgcolor="#f3f3f3">
 	<tbody>
 		<tr>
-			<td style="text-align:left;font-family: Arial,'Helvetica Neue',sans-serif;font-size:12px;color:#6b6b6b;line-height:18px;padding: 20px 30px;">
+			<td style="text-align:left;font-family: Arial,Helvetica,sans-serif;font-size:12px;color:#6b6b6b;line-height:18px;padding: 20px 30px;">
 				<table width="50%" cellpadding="0" cellspacing="0" border="0" align="left" class="footer-left">
 					<tbody>
 						<tr>
-							<td valign="top" class="footer-left" style="font-family: Arial,'Helvetica Neue',sans-serif;font-size:12px;line-height:18px;color:#888888;">
+							<td valign="top" class="footer-left" style="font-family: Arial,Helvetica,sans-serif;font-size:12px;line-height:18px;color:#888888;">
 								<!-- START FOOTER DONATE BUTTON, make sure to update both links and adjust both widths as needed -->
 								<div>
 									American Technion Society<br />
@@ -161,7 +154,7 @@ Below you will find snippets of code that you can place within your email templa
 				<table width="20%" cellspacing="0" cellpadding="0" border="0" align="right" class="footer-right">
 					<tbody>
 						<tr>
-							<td valign="top" class="footer-right" style="font-family: Arial,'Helvetica Neue',sans-serif;color:#6b6b6b;padding-top:5px;">
+							<td valign="top" class="footer-right" style="font-family: Arial,Helvetica,sans-serif;color:#6b6b6b;padding-top:5px;">
 								<a href="https://www.facebook.com/americantechnionsociety"><img src="https://secure2.convio.net/ats/images/content/pagebuilder/footer-facebook.png" border="0" alt="Facebook"/></a> &nbsp; &nbsp;
 								<a href="https://twitter.com/TechnionUSA"><img src="https://secure2.convio.net/ats/images/content/pagebuilder/footer-twitter.png" border="0" alt="Twitter"/></a> &nbsp; &nbsp;
 								<a href="https://www.instagram.com/americantechnionsociety"><img src="https://secure2.convio.net/ats/images/content/pagebuilder/footer-instagram.png" border="0" alt="Instagram"/></a>
@@ -172,7 +165,7 @@ Below you will find snippets of code that you can place within your email templa
 			</td>
 		</tr>
 		<tr>
-			<td align="center" class="footer-text" style="color:#6b6b6b;font-family: Arial,'Helvetica Neue',sans-serif;font-size:12px;line-height:20px;padding:15px;">
+			<td align="center" class="footer-text" style="color:#6b6b6b;font-family: Arial,Helvetica,sans-serif;font-size:12px;line-height:20px;padding:15px;">
 				<div><a href="https://ats.org" style="color: #6b6b6b;text-decoration: none;">Contact</a> | <a href="https://ats.org" style="color: #6b6b6b; text-decoration: none;">Unsubscribe</a></div>
 			</td>
 		</tr>
@@ -190,7 +183,7 @@ Below you will find snippets of code that you can place within your email templa
 	<tbody>
 		<!-- START OF MISSION SECTION -->
 		<tr>
-			<td align="left" class="footer-text" style="color:#6b6b6b;font-family: Arial,'Helvetica Neue',sans-serif;font-size:12px;line-height:18px;padding: 20px 30px;">
+			<td align="left" class="footer-text" style="color:#6b6b6b;font-family: Arial,Helvetica,sans-serif;font-size:12px;line-height:18px;padding: 20px 30px;">
 				<div>
 					The American Technion Society supports visionary education and world-changing impact through the Technion–Israel Institute of Technology. For more than 75 years, our nationwide supporter network has funded new Technion scholarships, research, labs, and facilities that have helped
 					deliver world-changing contributions and extend Technion education to campuses in three countries. Our investments in the Technion’s growth and innovation advance critical research and technologies that serve the State of Israel and the global good.
@@ -199,11 +192,11 @@ Below you will find snippets of code that you can place within your email templa
 		</tr>
 		<!-- END OF MISSION SECTION -->
 		<tr>
-			<td style="text-align:left;font-family: Arial,'Helvetica Neue',sans-serif;font-size:12px;color:#6b6b6b;line-height:18px;padding: 20px 30px;">
+			<td style="text-align:left;font-family: Arial,Helvetica,sans-serif;font-size:12px;color:#6b6b6b;line-height:18px;padding: 20px 30px;">
 				<table width="50%" cellpadding="0" cellspacing="0" border="0" align="left" class="footer-left">
 					<tbody>
 						<tr>
-							<td valign="top" class="footer-left" style="font-family: Arial,'Helvetica Neue',sans-serif;font-size:12px;line-height:18px;color:#888888;">
+							<td valign="top" class="footer-left" style="font-family: Arial,Helvetica,sans-serif;font-size:12px;line-height:18px;color:#888888;">
 								<!-- START FOOTER DONATE BUTTON, make sure to update both links and adjust both widths as needed -->
 								<div>
 									American Technion Society<br />
@@ -217,7 +210,7 @@ Below you will find snippets of code that you can place within your email templa
 				<table width="20%" cellspacing="0" cellpadding="0" border="0" align="right" class="footer-right">
 					<tbody>
 						<tr>
-							<td valign="top" class="footer-right" style="font-family: Arial,'Helvetica Neue',sans-serif;color:#6b6b6b;padding-top:5px;">
+							<td valign="top" class="footer-right" style="font-family: Arial,Helvetica,sans-serif;color:#6b6b6b;padding-top:5px;">
 								<a href="https://www.facebook.com/americantechnionsociety"><img src="https://secure2.convio.net/ats/images/content/pagebuilder/footer-facebook.png" border="0" alt="Facebook"/></a> &nbsp; &nbsp;
 								<a href="https://twitter.com/TechnionUSA"><img src="https://secure2.convio.net/ats/images/content/pagebuilder/footer-twitter.png" border="0" alt="Twitter"/></a> &nbsp; &nbsp;
 								<a href="https://www.instagram.com/americantechnionsociety"><img src="https://secure2.convio.net/ats/images/content/pagebuilder/footer-instagram.png" border="0" alt="Instagram"/></a>
@@ -228,7 +221,7 @@ Below you will find snippets of code that you can place within your email templa
 			</td>
 		</tr>
 		<tr>
-			<td align="center" class="footer-text" style="color:#6b6b6b;font-family: Arial,'Helvetica Neue',sans-serif;font-size:12px;line-height:20px;padding:15px;">
+			<td align="center" class="footer-text" style="color:#6b6b6b;font-family: Arial,Helvetica,sans-serif;font-size:12px;line-height:20px;padding:15px;">
 				<div><a href="https://ats.org" style="color: #6b6b6b;text-decoration: none;">Contact</a> | <a href="https://ats.org" style="color: #6b6b6b; text-decoration: none;">Unsubscribe</a></div>
 			</td>
 		</tr>
@@ -245,11 +238,11 @@ Below you will find snippets of code that you can place within your email templa
 <table align="center" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" width="600" bgcolor="#bbbbbb">
 	<tbody>
 		<tr>
-			<td style="text-align:left;font-family:Arial,'Helvetica Neue',sans-serif;font-size:18px;line-height:22px;color:#333333;padding:20px 30px;">
+			<td style="text-align:left;font-family:Arial,Helvetica,sans-serif;font-size:18px;line-height:22px;color:#333333;padding:20px 30px;">
 				<table width="50%" cellpadding="0" cellspacing="0" border="0" align="left" class="footer-left">
 					<tbody>
 						<tr>
-							<td valign="top" class="footer-left" style="font-family: Arial,'Helvetica Neue',sans-serif;font-weight: bold;">
+							<td valign="top" class="footer-left" style="font-family: Arial,Helvetica,sans-serif;font-weight: bold;">
 								<!-- START FOOTER DONATE BUTTON, make sure to update both links and adjust both widths as needed -->
 								<div>
 									Share with friends and family
@@ -262,7 +255,7 @@ Below you will find snippets of code that you can place within your email templa
 				<table width="20%" cellspacing="0" cellpadding="0" border="0" align="right" class="footer-right">
 					<tbody>
 						<tr>
-							<td valign="top" class="footer-right" style="font-family:Arial,'Helvetica Neue',sans-serif;">
+							<td valign="top" class="footer-right" style="font-family:Arial,Helvetica,sans-serif;">
 								<a href="https://www.facebook.com/americantechnionsociety"><img width="11px" height="23px" src="https://secure2.convio.net/ats/images/content/pagebuilder/footer-facebook.png" border="0" alt="Facebook"/></a> &nbsp; &nbsp;
 								<a href="https://twitter.com/TechnionUSA"><img width="24px" height="20px" src="https://secure2.convio.net/ats/images/content/pagebuilder/footer-twitter.png" border="0" alt="Twitter"/></a> &nbsp; &nbsp;
 								<a href="https://www.instagram.com/americantechnionsociety"><img width="21px" height="19px" src="https://secure2.convio.net/ats/images/content/pagebuilder/footer-instagram.png" border="0" alt="Instagram"/></a>

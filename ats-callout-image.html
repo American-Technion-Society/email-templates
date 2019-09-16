@@ -1,10 +1,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 	<head>
+		<title>ATS EMAIL</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="x-apple-disable-message-reformatting" />
-		<title>ATS Email</title>
 		<style type="text/css">
 			h1,
 			h2,
@@ -80,19 +80,6 @@
 			}
 
 			@media screen and (max-width: 480px) {
-				p {
-					font-size: 26px !important;
-					line-height: 38px !important;
-				}
-				h4 {
-					font-size: 30px !important;
-					line-height: 40px !important;
-				}
-				span.btn {
-					font-size: 28px;
-					padding: 20px;
-					line-height: 42px;
-				}
 				table.emailwrapto100pc {
 					width: 100% !important;
 					white-space: inherit !important;
@@ -116,6 +103,10 @@
 				td.speaker-info {
 					width:95% !important;
 					text-align:center !important;
+				}
+				td.footer-links {
+					font-size:16px;
+					color: #6b6b6b;
 				}
 				.outer-sidebox,
 				.inner-sidebox {
@@ -148,10 +139,34 @@
 				td.footer-text {
 					padding: 10px 20px 20px 20px !important;
 				}
+				p, a {
+					font-size: 26px !important;
+					line-height: 38px !important;
+				}
+				.footer-text a,
+				.footer-text p {
+					font-size: 12px !important;
+					line-height: 18px !important;
+					color:#6b6b6b !important;
+				}
+				h4 {
+					font-size: 30px !important;
+					line-height: 40px !important;
+				}
+				span.btn {
+					font-size: 28px;
+					padding: 20px;
+					line-height: 42px;
+					color:#ffffff;
+				}
+				span.footer-links {
+					font-size: 12px !important;
+					line-height: 18px !important;
+					color:#6b6b6b !important;
+				}
 			}
 		</style>
 	</head>
-
 	<body>
 		<!-- START PREHEADER TEXT -->
 		<span class="preheader" style="display:none !important;visibility:hidden;opacity:0;color:transparent;height:0;width:0;">ENTER PRE-HEADER TEXT HERE</span>
@@ -181,7 +196,7 @@
 										<tr>
 											<td>
 												<div align="center">
-													<a href="https://www.ats.org"><img src="https://placeimg.com/300/200/arch" width="100%" class="image-resize" border="0" alt="Image"/></a>
+													<a href="https://www.ats.org"><img src="https://placeimg.com/300/200/arch" width="100%" class="image-resize" border="0" alt="Callout Box Image"/></a>
 												</div>
 											</td>
 										</tr>
@@ -195,11 +210,11 @@
 												<table width="100%" border="0" cellspacing="0" cellpadding="0" role="button">
 													<tr>
 														<td style="padding: 20px 0;">
-															<table width="100%" border="0" cellspacing="0" cellpadding="0">
+															<table width="100%" border="0" cellspacing="0" cellpadding="0" role="button">
 																<tr>
 																	<td align="center" bgcolor="#d1803e" width="260">
 																		<!-- DO NOT REMOVE SPAN OR ITS class AS THIS IS TO MAKE SURE THE TEXT IS ENLARGED WHEN VIEWING ON MOBILE -->
-																		<a href="https://ats.org" style="font-family: Arial, sans-serif; color: #ffffff; padding: 10px 20px; border: 1px solid #d1803e; display: inline-block;font-size:18px;font-weight:bold;text-align:center;text-decoration:none;text-transform: uppercase;"><span class="btn">donate today</span></a>
+																		<a href="https://ats.org" style="font-family: Arial, sans-serif; color: #ffffff; padding: 10px 20px; border: 1px solid #d1803e; display: inline-block;font-size:18px;font-weight:bold;text-align:center;text-decoration:none;text-transform: uppercase;"><span class="btn">donate</span></a>
 																	</td>
 																</tr>
 															</table>
@@ -221,7 +236,7 @@
 
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt vestibulum ante, nec condimentum turpis aliquet et. Sed eget interdum eros. In sagittis justo nunc.</p>
 
-						<p>Nullam consequat nulla at aliquam interdum. Nam posuere sem ut est vestibulum fringilla. Integer molestie dolor sit amet enim tempus, et euismod sapien tempor. Vivamus vestibulum erat ex, sit amet dignissim metus placerat id.</p>
+						<p><a href="https://ats.org" style="font-size:18px;line-height:22px;"><strong>Nullam consequat nulla at aliquam interdum. Nam posuere sem ut est vestibulum fringilla.</strong></a></p>
 
 						<p>Phasellus nisl ante, vestibulum eu gravida vel, bibendum at sem. Nullam in ex eu odio congue venenatis. Fusce pellentesque, risus ut eleifend pellentesque, elit nunc placerat risus, in gravida purus lectus at felis. Suspendisse vulputate, risus a elementum accumsan, odio orci cursus est, at sollicitudin enim justo et lorem.</p>
 
@@ -232,58 +247,59 @@
 						<p>Thanks you,</p>
 
 						<!-- START SIGNATURE PHOTO, NAME, TITLE -->
-						<p><img src="https://placeimg.com/110/150/people" alt="Zahava Bar-Nir" width="110"></p>
+						<p><img src="https://placeimg.com/110/150/people" alt="Zahava Bar-Nir" width="110" border="0" /></p>
 						<p><strong>Zahava Bar-Nir<br />
 						National President of the Board<br />
 						American Technion Society</strong></p>
 						<!-- END SIGNATURE PHOTO, NAME, TITLE -->
 						<!-- END BODY CONTENT -->
+
+						<!-- START OF FOOTER SECTION -->
+						<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" width="600" bgcolor="#f3f3f3">
+							<tbody>
+								<tr>
+									<td style="text-align:left;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#6b6b6b;line-height:18px;padding: 20px 30px;">
+										<table role="presentation" width="50%" cellpadding="0" cellspacing="0" border="0" align="left" class="footer-left">
+											<tbody>
+												<tr>
+													<td valign="top" class="footer-left" style="font-family: Arial,Helvetica,sans-serif;font-size:12px;line-height:18px;color:#888888;">
+														<!-- START OF THE ADDRESS SECTION,-->
+														<div >
+															<span class="footer-text" style="font-size:12px;line-height:18px;">American Technion Society<br />
+															55 East 59th Street, New York, NY 10022</span>
+														</div>
+														<!-- END OF THE ADDRESS SECTION -->
+													</td>
+												</tr>
+											</tbody>
+										</table>
+										<!-- START OF THE FOOTER SOCIAL ICON SECTION -->
+										<table role="presentation" width="20%" cellspacing="0" cellpadding="0" border="0" align="right" class="footer-right">
+											<tbody>
+												<tr>
+													<td valign="top" class="footer-right" style="font-family: Arial,Helvetica,sans-serif;color:#6b6b6b;padding-top:5px;">
+														<a href="https://www.facebook.com/americantechnionsociety"><img src="https://secure2.convio.net/ats/images/content/pagebuilder/footer-facebook.png" border="0" width="11" alt="Facebook"/></a> &nbsp; &nbsp; <a href="https://twitter.com/TechnionUSA"><img src="https://secure2.convio.net/ats/images/content/pagebuilder/footer-twitter.png" border="0" width="27" alt="Twitter"/></a> &nbsp; &nbsp;
+														<a href="https://www.instagram.com/americantechnionsociety"><img src="https://secure2.convio.net/ats/images/content/pagebuilder/footer-instagram.png" border="0" width="23" alt="Instagram"/></a>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+										<!-- END OF THE FOOTER SOCIAL ICON SECTION -->
+									</td>
+								</tr>
+								<!-- START OF FOOTER LINKS -->
+								<tr>
+									<td align="center" class="footer-text" style="font-family: Arial,Helvetica,sans-serif;line-height:20px;padding:15px;">
+										<div><a href="https://ats.org" style="text-decoration: none;"><span class="footer-links" style="color: #6b6b6b;font-size:12px;">Contact</span></a> | <a class="footer-links" href="https://ats.org" style="text-decoration: none;"><span style="color: #6b6b6b;font-size:12px;" class="footer-links">Unsubscribe</span></a></div>
+									</td>
+								</tr>
+								<!-- END OF FOOTER LINKS -->
+							</tbody>
+						</table>
+						<!-- END OF FOOTER SECTION -->
 					</td>
 				</tr>
 			</tbody>
-			<!-- START OF FOOTER SECTION -->
-			<table align="center" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" width="600" bgcolor="#f3f3f3">
-				<tbody>
-					<tr>
-						<td style="text-align:left;font-family:Arial,'Helvetica Neue',sans-serif;font-size:12px;color:#6b6b6b;line-height:18px;padding: 20px 30px;">
-							<table width="50%" cellpadding="0" cellspacing="0" border="0" align="left" class="footer-left">
-								<tbody>
-									<tr>
-										<td valign="top" class="footer-left" style="font-family: Arial,'Helvetica Neue',sans-serif;font-size:12px;line-height:18px;color:#888888;">
-											<!-- START OF THE ADDRESS SECTION,-->
-											<div>
-												American Technion Society<br />
-												55 East 59th Street, New York, NY 10022
-											</div>
-											<!-- END OF THE ADDRESS SECTION -->
-										</td>
-									</tr>
-								</tbody>
-							</table>
-							<!-- START OF THE FOOTER SOCIAL ICON SECTION -->
-							<table width="20%" cellspacing="0" cellpadding="0" border="0" align="right" class="footer-right">
-								<tbody>
-									<tr>
-										<td valign="top" class="footer-right" style="font-family: Arial,'Helvetica Neue',sans-serif;color:#6b6b6b;padding-top:5px;">
-											<a href="https://www.facebook.com/americantechnionsociety"><img style="color:red;" src="https://secure2.convio.net/ats/images/content/pagebuilder/footer-facebook.png" border="0" alt="Facebook"/></a> &nbsp; &nbsp; <a href="https://twitter.com/TechnionUSA"><img src="https://secure2.convio.net/ats/images/content/pagebuilder/footer-twitter.png" border="0" alt="Twitter"/></a> &nbsp; &nbsp;
-											<a href="https://www.instagram.com/americantechnionsociety"><img src="https://secure2.convio.net/ats/images/content/pagebuilder/footer-instagram.png" border="0" alt="Instagram"/></a>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-							<!-- END OF THE FOOTER SOCIAL ICON SECTION -->
-						</td>
-					</tr>
-					<!-- START OF FOOTER LINKS -->
-					<tr>
-						<td align="center" class="footer-text" style="color:#6b6b6b;font-family: Arial,'Helvetica Neue',sans-serif;font-size:12px;line-height:20px;padding:15px;">
-							<div><a href="https://ats.org" style="color: #6b6b6b;text-decoration: none;">Contact</a> | <a href="https://ats.org" style="color: #6b6b6b; text-decoration: none;">Unsubscribe</a></div>
-						</td>
-					</tr>
-					<!-- END OF FOOTER LINKS -->
-				</tbody>
-			</table>
-			<!-- END OF FOOTER SECTION -->
 		</table>
 	</body>
 </html>
