@@ -318,7 +318,7 @@ a.whitelink, a.whitelink:link, a.whitelink:visited, a.whitelink:hover, a.whiteli
 	color: white;
 
 
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
 
 
 	font-size: 9pt;
@@ -415,7 +415,7 @@ background-position: 0% 50%;
 
 .title {
 color: #303030;
-font-family:Arial, Helvetica, sans-serif;
+font-family:Arial, Verdana, Helvetica, sans-serif;
 font-size:1.2em;
 font-weight:bold;
 }

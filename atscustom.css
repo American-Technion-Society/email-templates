@@ -80,7 +80,7 @@ p.cstmTitle {
 
 .ObjTitle {
     border-bottom: 1px solid #EA7125;
-    font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+    font-family: Trebuchet MS, Arial, Verdana, Helvetica, sans-serif;
     font-size: 14pt;
     margin-bottom: 30px;
     padding-top: 30px;
@@ -149,7 +149,7 @@ a.whitelink:visited,
 a.whitelink:hover,
 a.whitelink:active {
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
     font-size: 9pt;
 }
 
@@ -165,7 +165,7 @@ div.FormBox {
     background-color: white;
     background-image: URL(../images/sp.gif);
     padding: 0px;
-    width: 600px
+    width: 600px;
 }
 
 div.FormBoxNoWidth {
@@ -241,7 +241,7 @@ table.FormBox {
 
 .title {
     color: #303030;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
     font-size: 1.2em;
     font-weight: bold;
 }

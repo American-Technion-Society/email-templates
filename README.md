@@ -136,7 +136,7 @@ Below you will find snippets of code that you can place within your email templa
 <table align="center" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" width="600" bgcolor="#f3f3f3">
 	<tbody>
 		<tr>
-			<td style="text-align:left;font-family: Arial,Helvetica,sans-serif;font-size:12px;color:#6b6b6b;line-height:18px;padding: 20px 30px;">
+			<td style="text-align:left;font-family: Arial,Helvetica,sans-serif;font-size:12px;color:#4d4d4d;line-height:18px;padding: 20px 30px;">
 				<table width="50%" cellpadding="0" cellspacing="0" border="0" align="left" class="footer-left">
 					<tbody>
 						<tr>
@@ -154,7 +154,7 @@ Below you will find snippets of code that you can place within your email templa
 				<table width="20%" cellspacing="0" cellpadding="0" border="0" align="right" class="footer-right">
 					<tbody>
 						<tr>
-							<td valign="top" class="footer-right" style="font-family: Arial,Helvetica,sans-serif;color:#6b6b6b;padding-top:5px;">
+							<td valign="top" class="footer-right" style="font-family: Arial,Helvetica,sans-serif;color:#4d4d4d;padding-top:5px;">
 								<a href="https://www.facebook.com/americantechnionsociety"><img src="https://secure2.convio.net/ats/images/content/pagebuilder/footer-facebook.png" border="0" alt="Facebook"/></a> &nbsp; &nbsp;
 								<a href="https://twitter.com/TechnionUSA"><img src="https://secure2.convio.net/ats/images/content/pagebuilder/footer-twitter.png" border="0" alt="Twitter"/></a> &nbsp; &nbsp;
 								<a href="https://www.instagram.com/americantechnionsociety"><img src="https://secure2.convio.net/ats/images/content/pagebuilder/footer-instagram.png" border="0" alt="Instagram"/></a>
@@ -165,8 +165,8 @@ Below you will find snippets of code that you can place within your email templa
 			</td>
 		</tr>
 		<tr>
-			<td align="center" class="footer-text" style="color:#6b6b6b;font-family: Arial,Helvetica,sans-serif;font-size:12px;line-height:20px;padding:15px;">
-				<div><a href="https://ats.org" style="color: #6b6b6b;text-decoration: none;">Contact</a> | <a href="https://ats.org" style="color: #6b6b6b; text-decoration: none;">Unsubscribe</a></div>
+			<td align="center" class="footer-text" style="color:#4d4d4d;font-family: Arial,Helvetica,sans-serif;font-size:12px;line-height:20px;padding:15px;">
+				<div><a href="https://ats.org" style="color: #4d4d4d;text-decoration: none;">Contact</a> | <a href="https://ats.org" style="color: #4d4d4d; text-decoration: none;">Unsubscribe</a></div>
 			</td>
 		</tr>
 	</tbody>
@@ -183,7 +183,7 @@ Below you will find snippets of code that you can place within your email templa
 	<tbody>
 		<!-- START OF MISSION SECTION -->
 		<tr>
-			<td align="left" class="footer-text" style="color:#6b6b6b;font-family: Arial,Helvetica,sans-serif;font-size:12px;line-height:18px;padding: 20px 30px;">
+			<td align="left" class="footer-text" style="color:#4d4d4d;font-family: Arial,Helvetica,sans-serif;font-size:12px;line-height:18px;padding: 20px 30px;">
 				<div>
 					The American Technion Society supports visionary education and world-changing impact through the Technion–Israel Institute of Technology. For more than 75 years, our nationwide supporter network has funded new Technion scholarships, research, labs, and facilities that have helped
 					deliver world-changing contributions and extend Technion education to campuses in three countries. Our investments in the Technion’s growth and innovation advance critical research and technologies that serve the State of Israel and the global good.
@@ -192,7 +192,7 @@ Below you will find snippets of code that you can place within your email templa
 		</tr>
 		<!-- END OF MISSION SECTION -->
 		<tr>
-			<td style="text-align:left;font-family: Arial,Helvetica,sans-serif;font-size:12px;color:#6b6b6b;line-height:18px;padding: 20px 30px;">
+			<td style="text-align:left;font-family: Arial,Helvetica,sans-serif;font-size:12px;color:#4d4d4d;line-height:18px;padding: 20px 30px;">
 				<table width="50%" cellpadding="0" cellspacing="0" border="0" align="left" class="footer-left">
 					<tbody>
 						<tr>
@@ -210,7 +210,7 @@ Below you will find snippets of code that you can place within your email templa
 				<table width="20%" cellspacing="0" cellpadding="0" border="0" align="right" class="footer-right">
 					<tbody>
 						<tr>
-							<td valign="top" class="footer-right" style="font-family: Arial,Helvetica,sans-serif;color:#6b6b6b;padding-top:5px;">
+							<td valign="top" class="footer-right" style="font-family: Arial,Helvetica,sans-serif;color:#4d4d4d;padding-top:5px;">
 								<a href="https://www.facebook.com/americantechnionsociety"><img src="https://secure2.convio.net/ats/images/content/pagebuilder/footer-facebook.png" border="0" alt="Facebook"/></a> &nbsp; &nbsp;
 								<a href="https://twitter.com/TechnionUSA"><img src="https://secure2.convio.net/ats/images/content/pagebuilder/footer-twitter.png" border="0" alt="Twitter"/></a> &nbsp; &nbsp;
 								<a href="https://www.instagram.com/americantechnionsociety"><img src="https://secure2.convio.net/ats/images/content/pagebuilder/footer-instagram.png" border="0" alt="Instagram"/></a>
@@ -221,8 +221,8 @@ Below you will find snippets of code that you can place within your email templa
 			</td>
 		</tr>
 		<tr>
-			<td align="center" class="footer-text" style="color:#6b6b6b;font-family: Arial,Helvetica,sans-serif;font-size:12px;line-height:20px;padding:15px;">
-				<div><a href="https://ats.org" style="color: #6b6b6b;text-decoration: none;">Contact</a> | <a href="https://ats.org" style="color: #6b6b6b; text-decoration: none;">Unsubscribe</a></div>
+			<td align="center" class="footer-text" style="color:#4d4d4d;font-family: Arial,Helvetica,sans-serif;font-size:12px;line-height:20px;padding:15px;">
+				<div><a href="https://ats.org" style="color: #4d4d4d;text-decoration: none;">Contact</a> | <a href="https://ats.org" style="color: #4d4d4d; text-decoration: none;">Unsubscribe</a></div>
 			</td>
 		</tr>
 	</tbody>

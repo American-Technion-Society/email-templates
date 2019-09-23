@@ -1,7 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 	<head>
-		<title>ATS EMAIL</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="x-apple-disable-message-reformatting" />
@@ -35,6 +34,7 @@
 			a:hover,
 			a:active {
 				color: #2c3b91;
+				font-weight: bold;
 			}
 
 			img {
@@ -73,7 +73,7 @@
 
 			li {
 				margin-bottom: 15px;
-				font-family: Arial, Helvetica, sans-serif;
+				font-family: Arial, Verdana, Helvetica, sans-serif;
 				font-size: 18px;
 				line-height: 22px;
 				list-style-type: square;
@@ -105,8 +105,8 @@
 					text-align:center !important;
 				}
 				td.footer-links {
-					font-size:16px;
-					color: #6b6b6b;
+					font-size:16px !important;
+					color: #4d4d4d !important;
 				}
 				.outer-sidebox,
 				.inner-sidebox {
@@ -139,30 +139,46 @@
 				td.footer-text {
 					padding: 10px 20px 20px 20px !important;
 				}
-				p, a {
+				p, a, ul, li {
 					font-size: 26px !important;
 					line-height: 38px !important;
-				}
-				.footer-text a,
-				.footer-text p {
-					font-size: 12px !important;
-					line-height: 18px !important;
-					color:#6b6b6b !important;
 				}
 				h4 {
 					font-size: 30px !important;
 					line-height: 40px !important;
 				}
 				span.btn {
-					font-size: 28px;
-					padding: 20px;
-					line-height: 42px;
-					color:#ffffff;
+					font-size: 28px !important;
+					padding: 20px !important;
+					line-height: 42px !important;
+					color:#ffffff !important;
+				}
+				.footer-donate-text p {
+					font-size: 20px !important;
+					line-height: 28px !important;
+					color: #f3f3f3 !important;
+				}
+				.footer-text a,
+				.footer-text p {
+					font-size: 12px !important;
+					line-height: 18px !important;
+					color:#4d4d4d !important;
+					font-weight: normal !important;
 				}
 				span.footer-links {
 					font-size: 12px !important;
 					line-height: 18px !important;
-					color:#6b6b6b !important;
+					color:#4d4d4d !important;
+					font-weight: normal !important;
+				}
+			}
+			@media screen and (min-device-width: 768px) {
+				.footer-text a,
+				.footer-text p {
+					font-size: 12px !important;
+					line-height: 18px !important;
+					color:#4d4d4d !important;
+					font-weight: normal !important;
 				}
 			}
 		</style>
@@ -195,10 +211,10 @@
 				</tr>
 				<!-- END CENTERED IMAGE -->
 				<tr>
-					<td class="emailbodytext" style="color:#3c3532;font-family: Arial, Helvetica, sans-serif;font-size:18px;line-height:26px;padding:15px 0 20px 0;" valign="top">
+					<td class="emailbodytext" style="color:#3c3532;font-family: Arial, Verdana, Helvetica, sans-serif;font-size:18px;line-height:26px;padding:15px 0 20px 0;" valign="top">
 						<!-- START BODY CONTENT -->
 
-						<p>Dear [[?xx[[S1:first_name]]xx::xxxx::Friend::[[S1:first_name]]]],</p>
+						<p>Dear $[FNAME|Customer|Guest],</p>
 
 						<p>When Technion students are called to <i>milu&#8217;im</i>, they must drop everything.</p>
 
@@ -252,14 +268,14 @@
 						<!-- END BODY CONTENT -->
 
 						<!-- * START OF DONATE SECTION -->
-						<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" width="600" bgcolor="#2b365e">
+						<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" width="600" bgcolor="2b365e">
 							<tbody>
 								<!-- START OF MESSAGE SECTION -->
 								<tr>
-									<td align="center" class="footer-text" style="color:#f3f3f3;font-family: Arial, Helvetica,sans-serif;padding: 20px 40px 0 40px;">
+									<td align="center" class="footer-donate-text" style="color:#f3f3f3;font-family: Arial, Helvetica,sans-serif;padding: 20px 40px 0 40px;">
 										<div style="font-size:16px;line-height:25px">
 											<h4 style="font-size:20px;Margin-bottom: 10px;">Make a gift to the Technion Fund today!</h4>
-											<p>We&#8217;re looking for 50 alumni to step up and help Technion student reservists as they balance service to Israel and their studies. Can we count on you?</p>
+											<p>The Technion is contributing to Israel and the global good in unprecedented ways. Help us ensure its continued advancement as a world-class institution of higher education.</p>
 										</div>
 									</td>
 								</tr>
@@ -273,8 +289,8 @@
 													<td align="center">
 														<table border="0" cellspacing="0" cellpadding="0" role="button">
 															<tr>
-																<td align="center" bgcolor="#d1803e">
-																	<a href="https://secure2.convio.net/ats/site/Donation2?df_id=2777&mfc_pref=T&2777.donation=form1&utm_medium=email&utm_source=appeal&utm_campaign=2019alumni&utm_content=email2&s_src=2019alumni&s_subsrc=email2&autologin=true" style="font-family: Arial, sans-serif; padding: 12px 18px; border: 1px solid #d1803e; color:#f3f3f3; display: inline-block;font-weight:bold;text-align:center;text-decoration:none;text-transform: uppercase;letter-spacing: 1.2; font-size:18px;line-height:18px;"><span class="btn">
+																<td align="center" bgcolor="d1803e">
+																	<a href="https://ats.org" style="font-family: Arial, sans-serif; padding: 12px 18px; border: 1px solid #d1803e; color:#f3f3f3; display: inline-block;font-weight:bold;text-align:center;text-decoration:none;text-transform: uppercase;letter-spacing: 1.2; font-size:18px;line-height:18px;"><span class="btn">
 																	donate</span></a>
 																</td>
 															</tr>
@@ -295,7 +311,7 @@
 						<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" width="600" bgcolor="#f3f3f3">
 							<tbody>
 								<tr>
-									<td style="text-align:left;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#6b6b6b;line-height:18px;padding: 20px 30px;">
+									<td style="text-align:left;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#4d4d4d;line-height:18px;padding: 20px 30px;">
 										<table role="presentation" width="45%" cellpadding="0" cellspacing="0" border="0" align="left" class="footer-left">
 											<tbody>
 												<tr>
@@ -314,7 +330,7 @@
 										<table role="presentation" width="25%" cellspacing="0" cellpadding="0" border="0" align="right" class="footer-right">
 											<tbody>
 												<tr>
-													<td valign="top" class="footer-right" style="font-family: Arial,Helvetica,sans-serif;color:#6b6b6b;padding-top:5px;">
+													<td valign="top" class="footer-right" style="font-family: Arial,Helvetica,sans-serif;color:#4d4d4d;padding-top:5px;">
 														<a href="https://www.facebook.com/americantechnionsociety"><img src="https://secure2.convio.net/ats/images/content/pagebuilder/footer-facebook.png" border="0" width="11" alt="Facebook"/></a> &nbsp; &nbsp; <a href="https://twitter.com/TechnionUSA"><img src="https://secure2.convio.net/ats/images/content/pagebuilder/footer-twitter.png" border="0" width="27" alt="Twitter"/></a> &nbsp; &nbsp;
 														<a href="https://www.instagram.com/americantechnionsociety"><img src="https://secure2.convio.net/ats/images/content/pagebuilder/footer-instagram.png" border="0" width="23" alt="Instagram"/></a>
 													</td>
@@ -327,7 +343,9 @@
 								<!-- START OF FOOTER LINKS -->
 								<tr>
 									<td align="center" class="footer-text" style="font-family: Arial,Helvetica,sans-serif;line-height:20px;padding:15px;">
-										<div><a href="https://ats.org/contact-us/" style="text-decoration: none;"><span class="footer-links" style="color: #6b6b6b;font-size:12px;">Contact</span></a> | <a class="footer-links" href="http://support.ats.org/site/CO" style="text-decoration: none;"><span style="color: #6b6b6b;font-size:12px;" class="footer-links">Unsubscribe</span></a></div>
+										<div>
+											<a href="https://ats.org/contact-us/" style="text-decoration: none;"><span class="footer-links" style="color: #4d4d4d;font-size:12px;">Contact</span></a> <span class="footer-text" style="font-size:12px;line-height:18px;">|</span> <a class="footer-links" href="http://support.ats.org/site/CO" style="text-decoration: none;"><span style="color: #4d4d4d;font-size:12px;" class="footer-links">Unsubscribe</span></a>
+										</div>
 									</td>
 								</tr>
 								<!-- END OF FOOTER LINKS -->
