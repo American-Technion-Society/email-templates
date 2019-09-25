@@ -87,6 +87,7 @@
 				}
 				td.logo-spacing {
 					padding-left: 10px !important;
+					text-align: center !important;
 				}
 				td.emailbodytext {
 					padding-right: 40px !important;
@@ -205,7 +206,7 @@
 					<td class="emailbodytext" style="color:#3c3532;font-family: Arial, Verdana, Helvetica, sans-serif;font-size:18px;line-height:26px;padding:15px 0 20px 0;" valign="top">
 						<!-- START BODY CONTENT -->
 
-						<p>Dear $[FNAME|Customer|Guest],</p>
+						<p>Dear [[?xx[[S1:first_name]]xx::xxxx::Friend::[[S1:first_name]]]],</p>
 
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt vestibulum ante, nec condimentum turpis aliquet et. Sed eget interdum eros. In sagittis justo nunc.</p>
 
@@ -220,10 +221,9 @@
 									<td align="center">
 										<table border="0" cellspacing="0" cellpadding="0">
 											<tr>
-												<!-- COLOR HAS TO BE CHANGES IN THE TD  AND THE A TAGS BORDER -->
 												<td align="center" bgcolor="#d1803e">
 													<a href="https://ats.org" target="_blank" style="font-family: Arial, sans-serif; color: #ffffff; padding: 12px 18px; border: 1px solid #d1803e; display: inline-block;font-size:18px;font-weight:bold;text-align:center;text-decoration:none;text-transform: uppercase;">
-														<span class="btn">Read More</span>
+														<span class="btn">learn more</span>
 													</a>
 												</td>
 											</tr>
@@ -234,6 +234,7 @@
 							<br />
 						</div>
 						<!-- END OF BODY BUTTON -->
+
 
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt vestibulum ante, nec condimentum turpis aliquet et. Sed eget interdum eros. In sagittis justo nunc.</p>
 
@@ -250,44 +251,44 @@
 						<!-- END BODY CONTENT -->
 
 						<!-- * START OF DONATE SECTION -->
-			<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" width="600" bgcolor="2b365e">
-				<tbody>
-					<!-- START OF MESSAGE SECTION -->
-					<tr>
-						<td align="center" class="footer-donate-text" style="color:#f3f3f3;font-family: Arial, Helvetica,sans-serif;padding: 20px 40px 0 40px;">
-							<div style="font-size:16px;line-height:25px">
-								<h4 style="font-size:20px;Margin-bottom: 10px;">Make a gift to the Technion Fund today!</h4>
-								<p>The Technion is contributing to Israel and the global good in unprecedented ways. Help us ensure its continued advancement as a world-class institution of higher education.</p>
-							</div>
-						</td>
-					</tr>
-					<!-- END OF MESSAGE SECTION -->
-					<tr>
-						<td align="center">
-							<!-- START OF DONATE BUTTON SECTION -->
-							<div align="center">
-								<table width="100%" border="0" cellspacing="0" cellpadding="0" role="button">
-									<tr>
-										<td align="center">
-											<table border="0" cellspacing="0" cellpadding="0" role="button">
+						<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" width="600" bgcolor="2b365e">
+							<tbody>
+								<!-- START OF MESSAGE SECTION -->
+								<tr>
+									<td align="center" class="footer-donate-text" style="color:#f3f3f3;font-family: Arial, Helvetica,sans-serif;padding: 20px 40px 0 40px;">
+										<div style="font-size:16px;line-height:25px">
+											<h4 style="font-size:20px;Margin-bottom: 10px;">Make a gift to the Technion Fund today!</h4>
+											<p>The Technion is contributing to Israel and the global good in unprecedented ways. Help us ensure its continued advancement as a world-class institution of higher education.</p>
+										</div>
+									</td>
+								</tr>
+								<!-- END OF MESSAGE SECTION -->
+								<tr>
+									<td align="center">
+										<!-- START OF DONATE BUTTON SECTION -->
+										<div align="center">
+											<table width="100%" border="0" cellspacing="0" cellpadding="0" role="button">
 												<tr>
-													<td align="center" bgcolor="d1803e">
-														<a href="https://ats.org" style="font-family: Arial, sans-serif; padding: 12px 18px; border: 1px solid #d1803e; color:#f3f3f3; display: inline-block;font-weight:bold;text-align:center;text-decoration:none;text-transform: uppercase;letter-spacing: 1.2; font-size:18px;line-height:18px;"><span class="btn">
-														donate</span></a>
+													<td align="center">
+														<table border="0" cellspacing="0" cellpadding="0" role="button">
+															<tr>
+																<td align="center" bgcolor="d1803e">
+																	<a href="https://ats.org" style="font-family: Arial, sans-serif; padding: 12px 18px; border: 1px solid #d1803e; color:#f3f3f3; display: inline-block;font-weight:bold;text-align:center;text-decoration:none;text-transform: uppercase;letter-spacing: 1.2; font-size:18px;line-height:18px;"><span class="btn">
+																	donate</span></a>
+																</td>
+															</tr>
+														</table>
 													</td>
 												</tr>
 											</table>
-										</td>
-									</tr>
-								</table>
-							</div>
-							<br />
-							<!-- END OF DONATE BUTTON SECTION -->
-						</td>
-					</tr>
-				</tbody>
-			</table>
-			<!-- * END OF DONATE SECTION -->
+										</div>
+										<br />
+										<!-- END OF DONATE BUTTON SECTION -->
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- * END OF DONATE SECTION -->
 
 						<!-- START OF FOOTER SECTION -->
 						<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" width="600" bgcolor="#f3f3f3">

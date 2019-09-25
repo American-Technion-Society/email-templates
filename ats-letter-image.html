@@ -87,6 +87,7 @@
 				}
 				td.logo-spacing {
 					padding-left: 10px !important;
+					text-align: center !important;
 				}
 				td.emailbodytext {
 					padding-right: 40px !important;
@@ -195,9 +196,9 @@
 		<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" width="600">
 			<tbody>
 				<tr>
-					<td align="left" style="padding-top:15px;" class="logo-spacing">
+					<td style="padding-top:15px;" class="logo-spacing">
 						<!-- START LOGO IMAGE -->
-						<a href="http://ats.org"><img alt="American Technion Society" src="http://support.ats.org/images/content/pagebuilder/ATS-logo-blue.png" border="0" width="200" style="display:block;"/></a>
+						<a href="http://ats.org"><img alt="American Technion Society" src="http://support.ats.org/images/content/pagebuilder/ATS-logo-blue.png" border="0" width="200" /></a>
 						<!-- END LOGO IMAGE -->
 					</td>
 				</tr>
@@ -214,11 +215,11 @@
 					<td class="emailbodytext" style="color:#3c3532;font-family: Arial, Verdana, Helvetica, sans-serif;font-size:18px;line-height:26px;padding:15px 0 20px 0;" valign="top">
 						<!-- START BODY CONTENT -->
 
-						<p>Dear $[FNAME|Customer|Guest],</p>
+						<p>Dear [[?xx[[S1:first_name]]xx::xxxx::Friend::[[S1:first_name]]]],</p>
 
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt vestibulum ante, nec condimentum turpis aliquet et. Sed eget interdum eros. In sagittis justo nunc.</p>
 
-						<p>Nullam consequat nulla at aliquam interdum. Nam posuere sem ut est vestibulum fringilla. Integer molestie dolor sit amet enim tempus, et euismod sapien tempor. Vivamus vestibulum erat ex, sit amet dignissim metus placerat id.</p>
+						<p><a href="https://ats.org">Nullam consequat nulla at aliquam interdum. Nam posuere sem ut est vestibulum fringilla. Integer molestie dolor sit amet enim tempus, et euismod sapien tempor. Vivamus vestibulum erat ex, sit amet dignissim metus placerat id.</a></p>
 
 						<p>Phasellus nisl ante, vestibulum eu gravida vel, bibendum at sem. Nullam in ex eu odio congue venenatis. Fusce pellentesque, risus ut eleifend pellentesque, elit nunc placerat risus, in gravida purus lectus at felis. Suspendisse vulputate, risus a elementum accumsan, odio orci cursus est, at sollicitudin enim justo et lorem.</p>
 
@@ -227,7 +228,7 @@
 							<table width="100%" border="0" cellspacing="0" cellpadding="0" role="button">
 								<tr>
 									<td align="center">
-										<table border="0" cellspacing="0" cellpadding="0">
+										<table border="0" cellspacing="0" cellpadding="0" role="button">
 											<tr>
 												<td align="center" bgcolor="#208283">
 													<a href="https://ats.org" target="_blank" style="font-family: Arial, sans-serif; color: #ffffff; padding: 12px 18px; border: 1px solid #208283; display: inline-block;font-size:18px;font-weight:bold;text-align:center;text-decoration:none;text-transform: uppercase;">
@@ -243,8 +244,14 @@
 						</div>
 						<!-- END OF BODY BUTTON -->
 
-
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt vestibulum ante, nec condimentum turpis aliquet et. Sed eget interdum eros. In sagittis justo nunc.</p>
+
+						<ul>
+							<li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, placeat.</li>
+							<li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, placeat.</li>
+							<li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, placeat.</li>
+							<li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, placeat.</li>
+						</ul>
 
 						<p>Nullam consequat nulla at aliquam interdum. Nam posuere sem ut est vestibulum fringilla. Integer molestie dolor sit amet enim tempus, et euismod sapien tempor. <strong>Vivamus vestibulum erat ex, sit amet dignissim metus placerat id ignissim metus placerat.</strong></p>
 

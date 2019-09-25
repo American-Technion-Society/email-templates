@@ -87,6 +87,7 @@
 				}
 				td.logo-spacing {
 					padding-left: 10px !important;
+					text-align: center !important;
 				}
 				td.emailbodytext {
 					padding-right: 40px !important;
@@ -208,15 +209,6 @@
 								<td style="text-align:center;padding-left:20px;padding-bottom:20px;" class="sidebox-padding">
 									<!-- START INNER SIDEBOX TABLE -->
 									<table role="presentation" class="inner-sidebox" border="0" cellpadding="0" cellspacing="0" width="300" style="float:right;" bgcolor="#2c3b91">
-										<!-- START OF THE COB IMAGE -->
-										<tr>
-											<td>
-												<div align="center">
-													<a href="https://www.ats.org"><img src="https://placeimg.com/300/200/arch" width="100%" class="image-resize" border="0" alt="Callout Box Image"/></a>
-												</div>
-											</td>
-										</tr>
-										<!-- END OF THE COB IMAGE -->
 										<tr>
 											<td align="left" valign="top" style="padding: 10px 40px;">
 												<!-- START CTA TEXT -->
@@ -248,7 +240,7 @@
 						<!-- END OUTER SIDEBOX TABLE -->
 
 						<!-- START BODY CONTENT -->
-						<p>Dear $[FNAME|Customer|Guest],</p>
+						<p>Dear [[?xx[[S1:first_name]]xx::xxxx::Friend::[[S1:first_name]]]],</p>
 
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt vestibulum ante, nec condimentum turpis aliquet et. Sed eget interdum eros. In sagittis justo nunc.</p>
 
