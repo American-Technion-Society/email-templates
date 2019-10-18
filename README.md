@@ -245,7 +245,7 @@ Below you will find snippets of code that you can place within your email templa
 							<td valign="top" class="footer-left" style="font-family: Arial,Helvetica,sans-serif;font-weight: bold;">
 								<!-- START FOOTER DONATE BUTTON, make sure to update both links and adjust both widths as needed -->
 								<div>
-									Share with friends and family
+									Share with Friends and Family
 								</div>
 								<!-- END FOOTER DONATE BUTTON -->
 							</td>
