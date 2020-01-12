@@ -1,1 +1,19 @@
-clone These
+# dependencies installed by npm
+/node_modules
+
+# build artefacts
+/dist
+.netlify
+
+# secrets and errors
+.env
+.sass-cache
+.log
+
+# macOS related files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Files and Folders
+test.html
