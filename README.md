@@ -113,7 +113,7 @@ Below you will find snippets of code that you can place within your email templa
 							<table border="0" cellspacing="0" cellpadding="0">
 								<tr>
 									<td align="center" bgcolor="#d1803e">
-										<a href="https://ats.org" style="font-family: Arial, sans-serif; color: #f3f3f3; padding: 12px 18px; border: 1px solid #d1803e; display: inline-block;font-size:18px;font-weight:bold;text-align:center;text-decoration:none;text-transform: uppercase;">donate</a>
+										<a href="https://ats.org" style="font-family: Arial, sans-serif; color: #f3f3f3; padding: 12px 18px; border: 1px solid transparent; display: inline-block;font-size:18px;font-weight:bold;text-align:center;text-decoration:none;text-transform: uppercase;">donate</a>
 									</td>
 								</tr>
 							</table>

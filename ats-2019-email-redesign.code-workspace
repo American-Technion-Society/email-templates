@@ -13,7 +13,7 @@
 			"doctype-first": false
 		},
 		"editor.formatOnSave": false,
-		"editor.formatOnPaste": true,
+		"editor.formatOnPaste": false,
 		"css.lint.important": "ignore",
 		"css.lint.boxModel": "ignore",
 		"css.lint.float": "ignore",

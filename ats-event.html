@@ -4,7 +4,14 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="x-apple-disable-message-reformatting" />
+		<meta name="color-scheme" content="light dark">
+		<meta name="supported-color-schemes" content="light dark">
 		<style type="text/css">
+			:root {
+				color-schemes: light dark;
+				supported-color-schemes: light dark;
+			}
+
 			h1,
 			h2,
 			h3,
@@ -79,6 +86,14 @@
 				list-style-type: square;
 			}
 
+			.logo-dark {
+				display: block;
+			}
+
+			.logo-dark {
+				display: none;
+			}
+
 			@media screen and (max-width: 480px) {
 				table.emailwrapto100pc {
 					width: 100% !important;
@@ -90,27 +105,20 @@
 					text-align: center !important;
 				}
 				td.emailbodytext {
-					padding-right: 20px !important;
-					padding-left: 20px !important;
+					padding-right: 40px !important;
+					padding-left: 40px !important;
 				}
 				td.enews-heading h3 {
 					font-size:20px !important;
 				}
-				div.event-headline-box {
-					padding: 20px 10px !important;
-				}
-				table.featuring-wrapper {
-					width: 100% !important;
-					padding: 40px !important;
-				}
 				td.speaker-img {
-					width: 100% !important;
+					width:340px !important;
 					text-align: center !important;
+					margin-top:10px !important;
 				}
 				td.speaker-info {
-					width: 90% !important;
-					text-align: center !important;
-					padding:18px !important;
+					width:95% !important;
+					text-align:center !important;
 				}
 				td.footer-links {
 					font-size:16px !important;
@@ -189,6 +197,29 @@
 					font-weight: normal !important;
 				}
 			}
+
+			/* DARK MODE FOR IOS AND APPLE MAIL */
+			@media (prefers-color-scheme: dark) {
+				body{
+					background: #1c1c1e;
+					color: #cecece;
+				}
+				.dm-box  {
+					background: #252527;
+					color: #999999;
+				}
+				td.emailbodytext p,
+				td.emailbodytext li,
+				.speaker-info h4 {
+					color: #cecece;
+				}
+				.logo-dark {
+					display: block;
+				}
+				.logo-light {
+					display: none;
+				}
+			}
 		</style>
 	</head>
 	<body>
@@ -204,7 +235,9 @@
 				<tr>
 					<td style="padding-top:15px;" class="logo-spacing">
 						<!-- START LOGO IMAGE -->
-						<a href="http://ats.org"><img alt="American Technion Society" src="http://support.ats.org/images/content/pagebuilder/ATS-logo-blue.png" border="0" width="200" /></a>
+						<a class="logo-light" href="http://ats.org"><img alt="American Technion Society" src="http://support.ats.org/images/content/pagebuilder/ATS-logo-blue.png" border="0" width="200" /></a>
+						<!-- END LOGO IMAGE -->
+						<a class="logo-dark" href="http://ats.org"><img alt="American Technion Society" src="https://secure2.convio.net/ats/images/content/pagebuilder/ats-logo-white.png" border="0" width="200" /></a>
 						<!-- END LOGO IMAGE -->
 					</td>
 				</tr>
@@ -268,7 +301,7 @@
 									<div style="color: #2c3b91;font-size:22px;line-height:26px;margin-bottom: 20px;">
 										<h4>Featuring</h4>
 									</div>
-									<table class="featuring-wrapper" width="90%" border="0" cellspacing="0" cellpadding="0" bgcolor="#f3f3f3">
+									<table class="dm-box" class="featuring-wrapper" width="90%" border="0" cellspacing="0" cellpadding="0" bgcolor="#f3f3f3">
 										<tr>
 											<td class="speaker-img" style="float:left;">
 												<img style="max-width:100%;" src="https://secure2.convio.net/ats/images/content/pagebuilder/Sznitman-Headshot-web.jpg" alt="Guest Speaker: Josué Sznitman" />
@@ -323,7 +356,7 @@
 														<table border="0" cellspacing="0" cellpadding="0" role="button">
 															<tr>
 																<td align="center" bgcolor="d1803e">
-																	<a href="https://ats.org" style="font-family: Arial, sans-serif; padding: 12px 18px; border: 1px solid #d1803e; color:#f3f3f3; display: inline-block;font-weight:bold;text-align:center;text-decoration:none;text-transform: uppercase;letter-spacing: 1.2; font-size:18px;line-height:18px;"><span class="btn">
+																	<a href="https://ats.org" style="font-family: Arial, sans-serif; padding: 12px 18px; border: 1px solid transparent; color:#f3f3f3; display: inline-block;font-weight:bold;text-align:center;text-decoration:none;text-transform: uppercase;letter-spacing: 1.2; font-size:18px;line-height:18px;"><span class="btn">
 																	donate</span></a>
 																</td>
 															</tr>
@@ -341,7 +374,7 @@
 						<!-- * END OF DONATE SECTION -->
 
 						<!-- START OF FOOTER SECTION -->
-						<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" width="600" bgcolor="#f3f3f3">
+						<table class="dm-box" role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" width="600" bgcolor="#f3f3f3">
 							<tbody>
 								<tr>
 									<td style="text-align:left;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#4d4d4d;line-height:18px;padding: 20px 30px;">
