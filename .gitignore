@@ -1,19 +1,18 @@
 # dependencies installed by npm
-/node_modules
+node_modules/
 
-# build artefacts
-/dist
-.netlify
+# build artifacts
+build/
+dist/
+.cache
 
 # secrets and errors
 .env
-.sass-cache
 .log
+errors.*
+report.*
 
 # macOS related files
 .DS_Store
 .AppleDouble
 .LSOverride
-
-# Files and Folders
-test.html
