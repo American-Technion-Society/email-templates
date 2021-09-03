@@ -1,0 +1,4 @@
+{
+	"tags": "templates",
+	"permalink": "./ats/{{ page.fileSlug }}.html"
+}

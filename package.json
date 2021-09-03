@@ -1,0 +1,68 @@
+{
+  "name": "@american-technion-society/email-templates",
+  "version": "1.1.0",
+  "description": "This repository includes all the email code for revision history, a guide to using the email templates, useful snippets and tips.",
+  "main": ".eleventy.js",
+  "license": "MIT",
+  "author": {
+    "name": "Pavel Sanchez",
+    "email": "info@pavelsanchez.com",
+    "url": "https://psd.sh/"
+  },
+  "scripts": {
+    "start": "npm-run-all clean --parallel dev pretty",
+    "dev": "eleventy --serve",
+    "clean": "rimraf dist",
+    "pa11y": "pa11y ./dist/",
+    "pretty": "npx prettier --write dist",
+    "spellcheck": "npm cspell \"src/**\"",
+    "lint": "npm-run-all pa11y spellcheck",
+    "format": "npm run pretty",
+    "commit": "git cz",
+    "build": "cross-env ELEVENTY_ENV=prod eleventy",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/American-Technion-Society/email-templates.git"
+  },
+  "bugs": {
+    "url": "https://github.com/American-Technion-Society/email-templates/issues"
+  },
+  "homepage": "https://github.com/American-Technion-Society/email-templates#readme",
+  "private": true,
+  "keywords": [
+    "email",
+    "templates",
+    "html"
+  ],
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "commitlint": "^11.0.0",
+    "cross-env": "^7.0.3",
+    "cspell": "^5.6.6",
+    "cz-customizable": "^6.3.0",
+    "husky": "^7.0.1",
+    "lint-staged": "^10.2.11",
+    "npm-run-all": "^4.1.5",
+    "pa11y": "^5.3.0",
+    "prettier": "^2.2.1",
+    "semantic-release": "^17.4.7"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": "commitizen.config.js"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npx lint-staged"
+    }
+  },
+  "lint-staged": {
+    "dist": "npm run lint && npm run format"
+  }
+}

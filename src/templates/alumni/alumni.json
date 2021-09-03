@@ -1,0 +1,4 @@
+{
+	"tags": "templates",
+	"permalink": "./alumni/{{ page.fileSlug }}.html"
+}

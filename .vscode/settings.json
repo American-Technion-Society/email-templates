@@ -1,3 +1,12 @@
 {
-	"liveServer.settings.port": 5501
+	"editor.formatOnSave": false,
+	"editor.formatOnPaste": false,
+	"cSpell.customDictionaries": {
+		"custom-dictionary-workspace": {
+			"name": "custom-dictionary-workspace",
+			"path": "${workspaceFolder:ats-2019-email-templates}/.cspell/custom-dictionary-workspace.txt",
+			"addWords": true,
+			"scope": "workspace"
+		}
+	}
 }
