@@ -1,0 +1,21 @@
+name: Feature Request
+description: File a feature request
+title: "✨ Feat: "
+labels: [enhancement]
+assignees:
+  - palebludot
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this feature request!
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What feature would you like?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "A new feature happened!"
+    validations:
+      required: true
+
