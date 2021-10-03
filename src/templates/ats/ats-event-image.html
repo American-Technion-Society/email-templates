@@ -3,8 +3,16 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="width=device-width" />
+		<title>ATS Email</title>
 		<meta name="x-apple-disable-message-reformatting" />
+		<meta name="color-scheme" content="light dark" />
+		<meta name="supported-color-schemes" content="light dark" />
 		<style type="text/css">
+			:root {
+				color-schemes: light dark;
+				supported-color-schemes: light dark;
+			}
+
 			h1,
 			h2,
 			h3,
@@ -79,6 +87,14 @@
 				list-style-type: square;
 			}
 
+			.logo-dark {
+				display: block;
+			}
+
+			.logo-dark {
+				display: none;
+			}
+
 			@media screen and (max-width: 480px) {
 				table.emailwrapto100pc {
 					width: 100% !important;
@@ -90,27 +106,20 @@
 					text-align: center !important;
 				}
 				td.emailbodytext {
-					padding-right: 20px !important;
-					padding-left: 20px !important;
+					padding-right: 40px !important;
+					padding-left: 40px !important;
 				}
 				td.enews-heading h3 {
 					font-size: 20px !important;
 				}
-				div.event-headline-box {
-					padding: 20px 10px !important;
-				}
-				table.featuring-wrapper {
-					width: 100% !important;
-					padding: 40px !important;
-				}
 				td.speaker-img {
-					width: 100% !important;
+					width: 340px !important;
 					text-align: center !important;
+					margin-top: 10px !important;
 				}
 				td.speaker-info {
-					width: 90% !important;
+					width: 95% !important;
 					text-align: center !important;
-					padding: 18px !important;
 				}
 				td.footer-links {
 					font-size: 16px !important;
@@ -190,6 +199,29 @@
 					line-height: 18px !important;
 					color: #4d4d4d !important;
 					font-weight: normal !important;
+				}
+			}
+
+			/* DARK MODE FOR IOS AND APPLE MAIL */
+			@media (prefers-color-scheme: dark) {
+				body {
+					background: #1c1c1e;
+					color: #cecece;
+				}
+				.dm-box {
+					background: #252527;
+					color: #999999;
+				}
+				td.emailbodytext p,
+				td.emailbodytext li,
+				.speaker-info h4 {
+					color: #cecece;
+				}
+				.logo-dark {
+					display: block;
+				}
+				.logo-light {
+					display: none;
 				}
 			}
 		</style>
@@ -347,7 +379,7 @@
 													<td align="center">
 														<table border="0" cellspacing="0" cellpadding="0" role="button">
 															<tr>
-																<td align="center" bgcolor="d1803e">
+																<td align="center" bgcolor="c0813c">
 																	<a
 																		href="https://ats.org"
 																		style="

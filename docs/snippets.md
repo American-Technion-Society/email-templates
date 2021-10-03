@@ -1,6 +1,6 @@
 # Code Snippets
 
-Below you will find snippets of code that you can place within your email template. This gives you the avility to customize emails templates and a useful place for referecence.
+Below you will find snippets of code that you can place within your email template. This gives you the ability to customize emails templates and a useful place for reference.
 
 ## Image Banner
 
@@ -9,7 +9,7 @@ Below you will find snippets of code that you can place within your email templa
 	<td>
 		<!-- START CENTERED IMAGE -->
 		<div align="center" style="margin: 20px 0;">
-			<a href="https://www.ats.org"><img src="https://placeimg.com/640/200/arch" width="600" class="image-resize" border="0" alt="Image"/></a>
+			<a href="https://www.ats.org"><img src="https://placeimg.com/640/200/arch" width="600" class="image-resize" border="0" alt="Image" /></a>
 		</div>
 		<!-- END CENTERED IMAGE -->
 	</td>
@@ -50,7 +50,7 @@ Below you will find snippets of code that you can place within your email templa
 			</td>
 		</tr>
 		<!-- END OF MESSAGE SECTION -->
-        <tr>
+		<tr>
 			<td align="center" style="text-align:center;font-family: Arial,Helvetica,sans-serif;font-size:12px;color:#f3f3f3;line-height:18px;padding: 0 50px 30px 50px;">
 				<!-- START OF BUTTON SECTION -->
 				<table border="0" cellspacing="0" cellpadding="0" role="button">
@@ -58,7 +58,7 @@ Below you will find snippets of code that you can place within your email templa
 						<td align="center">
 							<table border="0" cellspacing="0" cellpadding="0">
 								<tr>
-									<td align="center" bgcolor="#d1803e">
+									<td align="center" bgcolor="#c0813c">
 										<a href="https://ats.org" style="font-family: Arial, sans-serif; color: #f3f3f3; padding: 12px 18px; border: 1px solid transparent; display: inline-block;font-size:18px;font-weight:bold;text-align:center;text-decoration:none;text-transform: uppercase;">donate</a>
 									</td>
 								</tr>
@@ -72,7 +72,6 @@ Below you will find snippets of code that you can place within your email templa
 	</tbody>
 </table>
 <!-- END OF DONATE SECTION -->
-
 ```
 
 ## Footer
@@ -101,9 +100,9 @@ Below you will find snippets of code that you can place within your email templa
 					<tbody>
 						<tr>
 							<td valign="top" class="footer-right" style="font-family: Arial,Helvetica,sans-serif;color:#4d4d4d;padding-top:5px;">
-								<a href="https://www.facebook.com/americantechnionsociety"><img src="https://secure2.convio.net/ats/images/content/pagebuilder/footer-facebook.png" border="0" alt="Facebook"/></a> &nbsp; &nbsp;
-								<a href="https://twitter.com/TechnionUSA"><img src="https://secure2.convio.net/ats/images/content/pagebuilder/footer-twitter.png" border="0" alt="Twitter"/></a> &nbsp; &nbsp;
-								<a href="https://www.instagram.com/americantechnionsociety"><img src="https://secure2.convio.net/ats/images/content/pagebuilder/footer-instagram.png" border="0" alt="Instagram"/></a>
+								<a href="https://www.facebook.com/americantechnionsociety"><img src="https://secure2.convio.net/ats/images/content/pagebuilder/footer-facebook.png" border="0" alt="Facebook" /></a> &nbsp; &nbsp;
+								<a href="https://twitter.com/TechnionUSA"><img src="https://secure2.convio.net/ats/images/content/pagebuilder/footer-twitter.png" border="0" alt="Twitter" /></a> &nbsp; &nbsp;
+								<a href="https://www.instagram.com/americantechnionsociety"><img src="https://secure2.convio.net/ats/images/content/pagebuilder/footer-instagram.png" border="0" alt="Instagram" /></a>
 							</td>
 						</tr>
 					</tbody>
@@ -118,7 +117,6 @@ Below you will find snippets of code that you can place within your email templa
 	</tbody>
 </table>
 <!-- END OF FOOTER SECTION -->
-
 ```
 
 ## Mission Footer
@@ -131,8 +129,8 @@ Below you will find snippets of code that you can place within your email templa
 		<tr>
 			<td align="left" class="footer-text" style="color:#4d4d4d;font-family: Arial,Helvetica,sans-serif;font-size:12px;line-height:18px;padding: 20px 30px;">
 				<div>
-					The American Technion Society supports visionary education and world-changing impact through the Technion–Israel Institute of Technology. For more than 75 years, our nationwide supporter network has funded new Technion scholarships, research, labs, and facilities that have helped
-					deliver world-changing contributions and extend Technion education to campuses in three countries. Our investments in the Technion’s growth and innovation advance critical research and technologies that serve the State of Israel and the global good.
+					The American Technion Society supports visionary education and world-changing impact through the Technion–Israel Institute of Technology. For more than 75 years, our nationwide supporter network has funded new Technion scholarships, research, labs, and facilities that have helped deliver
+					world-changing contributions and extend Technion education to campuses in three countries. Our investments in the Technion’s growth and innovation advance critical research and technologies that serve the State of Israel and the global good.
 				</div>
 			</td>
 		</tr>
@@ -157,9 +155,9 @@ Below you will find snippets of code that you can place within your email templa
 					<tbody>
 						<tr>
 							<td valign="top" class="footer-right" style="font-family: Arial,Helvetica,sans-serif;color:#4d4d4d;padding-top:5px;">
-								<a href="https://www.facebook.com/americantechnionsociety"><img src="https://secure2.convio.net/ats/images/content/pagebuilder/footer-facebook.png" border="0" alt="Facebook"/></a> &nbsp; &nbsp;
-								<a href="https://twitter.com/TechnionUSA"><img src="https://secure2.convio.net/ats/images/content/pagebuilder/footer-twitter.png" border="0" alt="Twitter"/></a> &nbsp; &nbsp;
-								<a href="https://www.instagram.com/americantechnionsociety"><img src="https://secure2.convio.net/ats/images/content/pagebuilder/footer-instagram.png" border="0" alt="Instagram"/></a>
+								<a href="https://www.facebook.com/americantechnionsociety"><img src="https://secure2.convio.net/ats/images/content/pagebuilder/footer-facebook.png" border="0" alt="Facebook" /></a> &nbsp; &nbsp;
+								<a href="https://twitter.com/TechnionUSA"><img src="https://secure2.convio.net/ats/images/content/pagebuilder/footer-twitter.png" border="0" alt="Twitter" /></a> &nbsp; &nbsp;
+								<a href="https://www.instagram.com/americantechnionsociety"><img src="https://secure2.convio.net/ats/images/content/pagebuilder/footer-instagram.png" border="0" alt="Instagram" /></a>
 							</td>
 						</tr>
 					</tbody>
@@ -174,7 +172,6 @@ Below you will find snippets of code that you can place within your email templa
 	</tbody>
 </table>
 <!-- END OF FOOTER SECTION -->
-
 ```
 
 ## Social Share
@@ -190,9 +187,7 @@ Below you will find snippets of code that you can place within your email templa
 						<tr>
 							<td valign="top" class="footer-left" style="font-family: Arial,Helvetica,sans-serif;font-weight: bold;">
 								<!-- START FOOTER DONATE BUTTON, make sure to update both links and adjust both widths as needed -->
-								<div>
-									Share with Friends and Family
-								</div>
+								<div>Share with Friends and Family</div>
 								<!-- END FOOTER DONATE BUTTON -->
 							</td>
 						</tr>
@@ -202,9 +197,9 @@ Below you will find snippets of code that you can place within your email templa
 					<tbody>
 						<tr>
 							<td valign="top" class="footer-right" style="font-family:Arial,Helvetica,sans-serif;">
-								<a href="https://www.facebook.com/americantechnionsociety"><img width="11px" height="23px" src="https://secure2.convio.net/ats/images/content/pagebuilder/footer-facebook.png" border="0" alt="Facebook"/></a> &nbsp; &nbsp;
-								<a href="https://twitter.com/TechnionUSA"><img width="24px" height="20px" src="https://secure2.convio.net/ats/images/content/pagebuilder/footer-twitter.png" border="0" alt="Twitter"/></a> &nbsp; &nbsp;
-								<a href="http://support.ats.org/site/TellAFriend"><img width="22px" height="19px" src="https://secure2.convio.net/ats/images/content/pagebuilder/mail-icon.png" border="0" alt="Forward Email"/></a>
+								<a href="https://www.facebook.com/americantechnionsociety"><img width="11px" height="23px" src="https://secure2.convio.net/ats/images/content/pagebuilder/footer-facebook.png" border="0" alt="Facebook" /></a> &nbsp; &nbsp;
+								<a href="https://twitter.com/TechnionUSA"><img width="24px" height="20px" src="https://secure2.convio.net/ats/images/content/pagebuilder/footer-twitter.png" border="0" alt="Twitter" /></a> &nbsp; &nbsp;
+								<a href="http://support.ats.org/site/TellAFriend"><img width="22px" height="19px" src="https://secure2.convio.net/ats/images/content/pagebuilder/mail-icon.png" border="0" alt="Forward Email" /></a>
 							</td>
 						</tr>
 					</tbody>
