@@ -17,7 +17,7 @@
 		"url": "https://pavelsanchez.com"
 	},
 	"scripts": {
-		"start": "npm-run-all clean --parallel dev pretty",
+		"start": "npm-run-all clean --parallel dev",
 		"dev": "eleventy --serve",
 		"clean": "rimraf dist",
 		"spellcheck": "npx cspell dist/**/*",
