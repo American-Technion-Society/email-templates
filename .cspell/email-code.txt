@@ -1,0 +1,9 @@
+lspace
+rspace
+preheader
+emailwrapto
+emailbodytext
+enews
+sidebox
+bgcolor
+valign
