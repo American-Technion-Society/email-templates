@@ -1,5 +1,9 @@
 {
-	"colors": {},
+	"colors": {
+		"orange": "#c0813c",
+		"teal": "#208283",
+		"blue": "#2c3b91"
+	},
 	"fonts": [],
 	"sizes": {}
 }
