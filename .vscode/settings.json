@@ -1,12 +1,7 @@
 {
-	"editor.formatOnSave": false,
-	"editor.formatOnPaste": false,
-	"cSpell.customDictionaries": {
-		"custom-dictionary-workspace": {
-			"name": "custom-dictionary-workspace",
-			"path": "${workspaceFolder:ats-2019-email-templates}/.cspell/custom-dictionary-workspace.txt",
-			"addWords": true,
-			"scope": "workspace"
-		}
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"files.exclude": {
+		"**/node_modules": false
 	}
 }
