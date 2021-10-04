@@ -1,0 +1,4 @@
+{
+	"tags": ["templates", "custom"],
+	"permalink": "./custom/{{ page.fileSlug }}.html"
+}
