@@ -3,8 +3,16 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="width=device-width" />
+		<title>ATS Email</title>
 		<meta name="x-apple-disable-message-reformatting" />
+		<meta name="color-scheme" content="light dark" />
+		<meta name="supported-color-schemes" content="light dark" />
 		<style type="text/css">
+			:root {
+				color-schemes: light dark;
+				supported-color-schemes: light dark;
+			}
+
 			h1,
 			h2,
 			h3,
@@ -188,6 +196,33 @@
 					line-height: 18px !important;
 					color: #4d4d4d !important;
 					font-weight: normal !important;
+				}
+			}
+
+			/* DARK MODE FOR IOS AND APPLE MAIL */
+			@media (prefers-color-scheme: dark) {
+				body {
+					background: #1c1c1e;
+					color: #cecece;
+				}
+				.dm-box {
+					background: #252527;
+				}
+				.dm-share {
+					background: #39393b;
+				}
+				.dm-share p {
+					color: #bbbbbb !important;
+				}
+				td.emailbodytext p,
+				td.emailbodytext li {
+					color: #cecece;
+				}
+				.logo-dark {
+					display: block;
+				}
+				.logo-light {
+					display: none;
 				}
 			}
 		</style>
@@ -487,16 +522,16 @@
 						<!-- ! END BODY CONTENT -->
 
 						<!-- START OF SHARE SECTION -->
-						<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" width="600" bgcolor="#bbbbbb">
+						<table role="presentation" class="dm-share emailwrapto100pc" align="center" border="0" cellpadding="0" cellspacing="0" width="600" bgcolor="#bbbbbb">
 							<tbody>
 								<tr>
 									<td style="text-align: left; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 16px; color: #333333; padding: 20px 30px">
-										<table width="65%" cellpadding="0" cellspacing="0" border="0" align="left" class="social-share-left">
+										<table role="presentation" width="65%" cellpadding="0" cellspacing="0" border="0" align="left" class="social-share-left">
 											<tbody>
 												<tr>
 													<td valign="top" class="social-share-left" style="font-family: Arial, Helvetica, sans-serif; font-weight: bold">
 														<!-- START FOOTER DONATE BUTTON, make sure to update both links and adjust both widths as needed -->
-														<div>Share with Friends and Family</div>
+														<p style="margin-bottom: 0; margin-top: 5px">Share with Friends and Family</p>
 														<!-- END FOOTER DONATE BUTTON -->
 													</td>
 												</tr>
@@ -519,7 +554,7 @@
 						</table>
 						<!-- END OF SHARE SECTION -->
 						<!-- START OF FOOTER SECTION -->
-						<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" width="600" bgcolor="#f3f3f3">
+						<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc dm-box" width="600" bgcolor="#f3f3f3">
 							<tbody>
 								<!-- START OF MISSION SECTION -->
 								<tr>

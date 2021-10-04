@@ -3,8 +3,16 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="width=device-width" />
+		<title>ATS Email</title>
 		<meta name="x-apple-disable-message-reformatting" />
+		<meta name="color-scheme" content="light dark" />
+		<meta name="supported-color-schemes" content="light dark" />
 		<style type="text/css">
+			:root {
+				color-schemes: light dark;
+				supported-color-schemes: light dark;
+			}
+
 			h1,
 			h2,
 			h3,
@@ -181,6 +189,28 @@
 					font-weight: normal !important;
 				}
 			}
+
+			/* DARK MODE FOR IOS AND APPLE MAIL */
+			@media (prefers-color-scheme: dark) {
+				body {
+					background: #1c1c1e;
+					color: #cecece;
+				}
+				.dm-box {
+					background: #252527;
+					color: #999999;
+				}
+				td.emailbodytext p,
+				td.emailbodytext li {
+					color: #cecece;
+				}
+				.logo-dark {
+					display: block;
+				}
+				.logo-light {
+					display: none;
+				}
+			}
 		</style>
 	</head>
 	<body>
@@ -203,7 +233,7 @@
 				<tr>
 					<td class="emailbodytext" style="color: #3c3532; font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 18px; line-height: 26px; padding: 15px 0 20px 0" valign="top">
 						<!-- START OUTER SIDEBOX TABLE  -->
-						<table role="presentation" class="outer-sidebox" align="right" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="320" style="float: right">
+						<table role="presentation" class="outer-sidebox" align="right" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="320" style="float: right; background: transparent">
 							<tr>
 								<td style="text-align: center; padding-left: 20px; padding-bottom: 20px" class="sidebox-padding">
 									<!-- START INNER SIDEBOX TABLE -->
@@ -282,7 +312,7 @@
 						<!-- END BODY CONTENT -->
 
 						<!-- START OF FOOTER SECTION -->
-						<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" width="600" bgcolor="#f3f3f3">
+						<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc dm-box" width="600" bgcolor="#f3f3f3">
 							<tbody>
 								<tr>
 									<td style="text-align: left; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #4d4d4d; line-height: 18px; padding: 20px 30px">

@@ -1,4 +1,4 @@
 {
-	"tags": "templates",
+	"tags": ["templates", "alumni"],
 	"permalink": "./alumni/{{ page.fileSlug }}.html"
 }
