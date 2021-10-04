@@ -1,0 +1,50 @@
+name: ✨ Feature Request
+description: File a feature request
+title: "✨ "
+labels: [enhancement]
+assignees:
+  - palebludot
+body:
+  - type: dropdown
+    id: Type
+    attributes:
+      label: Is this request for a new request or updating an existing feature?
+      multiple: false
+      options:
+        - New
+        - Update
+    validations:
+      required: false
+  - type: textarea
+    id: current-behavior
+    attributes:
+      label: What is the current behavior?
+      description: Explain in details, what it currently happening?
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What is the expected behavior?
+      description: Explain in details, what you are expecting?
+      placeholder: Tell us what you to see see!
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: What is your current environment?
+      description: Explain in details, what you are expecting?
+      placeholder: |
+        - v1.2.3
+        - Chrome Version 93.0.4577.82 (Official Build) (64-bit)
+  - type: textarea
+    id: other-info
+    attributes:
+      label: Other information
+      description: e.g. detailed explanation, stacktraces, related issues, suggestions how to fix, links for us to have context, eg. stackoverflow, gitter, etc
+  - type: markdown
+    attributes:
+      value: |
+        ### Thanks for taking the time to fill out this feature request!
