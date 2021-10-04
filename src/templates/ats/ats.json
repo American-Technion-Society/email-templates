@@ -1,4 +1,4 @@
 {
-	"tags": "templates",
+	"tags": ["templates", "ats"],
 	"permalink": "./ats/{{ page.fileSlug }}.html"
 }
