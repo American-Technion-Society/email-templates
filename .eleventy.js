@@ -8,9 +8,7 @@ module.exports = function (eleventyConfig) {
 	let markdownLib = markdownIt(options).disable("code");
 	eleventyConfig.setLibrary("md", markdownLib);
 
-	eleventyConfig.addLayoutAlias("base", "layouts/base.njk");
-	eleventyConfig.addLayoutAlias("email-base", "layouts/email-base.njk");
-	eleventyConfig.addLayoutAlias("event", "layouts/event.njk");
+	eleventyConfig.addLayoutAlias("index", "layouts/index.njk");
 
 	return {
 		htmlTemplateEngine: "njk",
