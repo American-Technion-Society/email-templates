@@ -1,6 +1,6 @@
 {
 	"name": "@american-technion-society/email-templates",
-	"version": "1.1.0",
+	"version": "1.0.0",
 	"description": "This repository includes all the email code for revision history, a guide to using the email templates, useful snippets and tips.",
 	"repository": "American-Technion-Society/email-templates",
 	"main": "dist/",
