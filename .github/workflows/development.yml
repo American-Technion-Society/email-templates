@@ -1,9 +1,8 @@
-ame: Development
+name: Development
 
 on:
   pull_request:
     branches:
-      - "+([0-9])?(.{+([0-9]),x}).x"
       - main
       - beta
     types: [opened, synchronize, reopened]
