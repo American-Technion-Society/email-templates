@@ -1,0 +1,17 @@
+name: ❓ Question
+description: Answer me this...
+title: "❓ "
+labels: [question]
+assignees:
+  - palebludot
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: What is the question you be having?
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ### Thanks for taking the time to fill out this question!

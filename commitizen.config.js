@@ -25,7 +25,7 @@ const types = [
 	},
 ];
 
-const scopes = ["automation", "component", "config", "data", "docs", "layout", "styles"].map((name) => ({
+const scopes = ["automation", "component", "config", "data", "docs", "layout", "media", "styles"].map((name) => ({
 	name,
 }));
 
@@ -43,7 +43,7 @@ module.exports = {
 		footer: "List CLOSED ISSUES (optional). E.g.: #31, #34:\n",
 		confirmCommit: "Are you sure you want to proceed with the commit above?",
 	},
-	allowCustomScopes: false,
+	allowCustomScopes: true,
 	allowBreakingChanges: ["feat", "fix"],
 	subjectLimit: 60,
 };

@@ -1,5 +1,6 @@
 # dependencies installed by npm
 node_modules/
+.vscode/
 
 # build artifacts
 build/
@@ -16,3 +17,6 @@ report.*
 .DS_Store
 .AppleDouble
 .LSOverride
+
+# test files
+test.*
