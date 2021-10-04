@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.1.0](https://github.com/American-Technion-Society/email-templates/compare/v1.0.2...v1.1.0) (2021-10-04)
+
+
+### Features
+
+* add website ([#6](https://github.com/American-Technion-Society/email-templates/issues/6)) ([dcf761e](https://github.com/American-Technion-Society/email-templates/commit/dcf761ed82aa427142adfd8b83307c67d0ceefac))
+
 ## [1.0.2](https://github.com/American-Technion-Society/email-templates/compare/v1.0.1...v1.0.2) (2021-10-04)
 
 
