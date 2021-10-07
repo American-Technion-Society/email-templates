@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/American-Technion-Society/email-templates/compare/v1.1.0...v1.1.1) (2021-10-07)
+
+
+### Bug Fixes
+
+* **layout:** white background behind callout ([#8](https://github.com/American-Technion-Society/email-templates/issues/8)) ([aa5cdf3](https://github.com/American-Technion-Society/email-templates/commit/aa5cdf3f845d2600dfbd25bcf5e2526773cdc746)), closes [#7](https://github.com/American-Technion-Society/email-templates/issues/7)
+
 # [1.1.0](https://github.com/American-Technion-Society/email-templates/compare/v1.0.2...v1.1.0) (2021-10-04)
 
 
