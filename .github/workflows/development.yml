@@ -34,8 +34,11 @@ jobs:
         env:
           HUSKY_SKIP_INSTALL: true
 
-      - name: 🏗 Build
-        run: npm run build --if-present
+      - name: 📦 Build
+        run: npm run build
+
+      - name: 🚨 Lint
+        run: npm run lint
 
       - name: 🚢 Release
         uses: cycjimmy/semantic-release-action@v2
