@@ -34,7 +34,7 @@ jobs:
         env:
           HUSKY_SKIP_INSTALL: true
 
-      - name: 🚨 Build
+      - name: 🚨 Lint
         run: npm run lint
 
       - name: 📦 Build
