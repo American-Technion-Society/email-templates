@@ -9,6 +9,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.setLibrary("md", markdownLib);
 
 	eleventyConfig.addLayoutAlias("index", "layouts/index.njk");
+	eleventyConfig.addLayoutAlias("default", "layouts/default.njk");
 
 	return {
 		htmlTemplateEngine: "njk",
