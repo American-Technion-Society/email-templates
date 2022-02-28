@@ -1,0 +1,240 @@
+<style type="text/css">
+	:root {
+		color-schemes: light dark;
+		supported-color-schemes: light dark;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		margin: 0 0 5px 0;
+	}
+
+	p, li {
+		margin-top: 0;
+		margin-bottom: 20px;
+		font-size: {{ config.theme.font.size }};
+	}
+
+	body {
+		width: 100% !important;
+		-webkit-text-size-adjust: 100%;
+		-ms-text-size-adjust: 100%;
+		-moz-text-size-adjust: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	a,
+	a:visited,
+	a:hover,
+	a:active {
+		color: {{ config.theme.colors.atsBlue }};
+		font-weight: bold;
+	}
+
+	img {
+		outline: none;
+		text-decoration: none;
+		-ms-interpolation-mode: bicubic;
+	}
+
+	a img {
+		border: none;
+	}
+
+	table,
+	td {
+		border-spacing: 0;
+		border-collapse: collapse;
+		mso-table-lspace: 0;
+		mso-table-rspace: 0;
+	}
+
+	/* Remove spacing between tables in Outlook 2007 and up */
+
+	.preheader {
+		display: none !important;
+		visibility: hidden;
+		opacity: 0;
+		color: transparent;
+		height: 0;
+		width: 0;
+	}
+
+	ul {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	li {
+		font-family: {{ config.theme.font.family }};
+		font-size: {{ config.theme.font.size }};
+		line-height: {{ config.theme.font.lineHeight }};
+	}
+
+	.logo-light {
+		display: block;
+	}
+
+	.logo-dark {
+		display: none;
+	}
+
+	@media screen and (max-width: 480px) {
+		table.emailwrapto100pc {
+			width: 100% !important;
+			white-space: inherit !important;
+			line-height: inherit !important;
+		}
+		td.logo-spacing {
+			padding-left: 10px !important;
+			text-align: center !important;
+		}
+		td.emailbodytext {
+			padding-right: 20px !important;
+			padding-left: 20px !important;
+		}
+		td.enews-heading h3 {
+			font-size: 20px !important;
+		}
+		td.speaker-img {
+			width: 340px !important;
+			text-align: center !important;
+			margin-top: 10px !important;
+		}
+		td.speaker-info {
+			width: 95% !important;
+			text-align: center !important;
+		}
+		td.footer-links {
+			font-size: 16px !important;
+			color: #4d4d4d !important;
+		}
+		.outer-sidebox,
+		.inner-sidebox {
+			float: none !important;
+			width: 100% !important;
+		}
+		td.sidebox-padding {
+			padding-left: 0 !important;
+		}
+		.image-resize {
+			width: 100% !important;
+		}
+		table.footer-left,
+		table.footer-right {
+			width: 100% !important;
+			margin-top: 10px !important;
+		}
+		table.footer-right {
+			float: left !important;
+			margin-top: 25px !important;
+		}
+		td.footer-left,
+		td.footer-right,
+		td.footer-text {
+			text-align: center !important;
+		}
+		td.footer-right {
+			padding: 0 !important;
+		}
+		td.footer-text {
+			padding: 10px 20px 20px 20px !important;
+		}
+		p,
+		a,
+		ul,
+		li {
+			font-size: 26px !important;
+			line-height: 38px !important;
+		}
+		h4 {
+			font-size: 30px !important;
+			line-height: 40px !important;
+		}
+		span.btn {
+			font-size: 28px !important;
+			padding: 20px !important;
+			line-height: 42px !important;
+			color: {{ config.theme.colors.light.text }} !important;
+		}
+		.footer-donate-text p {
+			font-size: 20px !important;
+			line-height: 28px !important;
+			color: {{ config.theme.colors.dark.text }} !important;
+		}
+		.footer-text a,
+		.footer-text p {
+			font-size: 12px !important;
+			line-height: 18px !important;
+			color: {{ config.theme.colors.dark.text }} !important;
+			font-weight: normal !important;
+		}
+		span.footer-links {
+			font-size: 12px !important;
+			line-height: 18px !important;
+			color: {{ config.theme.colors.dark.text }} !important;
+			font-weight: normal !important;
+		}
+		td.footer-social {
+			text-align: center !important;
+
+		}
+		td.footer-social a {
+			font-size: 16px !important;
+			padding-right: 10px;
+		}
+	}
+	@media screen and (min-device-width: 768px) {
+		.footer-text a,
+		.footer-text p {
+			font-size: 12px !important;
+			line-height: 18px !important;
+			color: {{ config.theme.colors.dark.text }} !important;
+			font-weight: normal !important;
+		}
+	}
+
+	@media (prefers-color-scheme: dark) {
+		body {
+			background: {{ config.theme.colors.dark.bg }};
+			color: {{ config.theme.colors.light.text }};
+		}
+
+		a,
+		a:visited,
+		a:hover,
+		a:active {
+			color: {{ config.theme.colors.altBlue }};
+		}
+
+		.dm-box {
+			background: {{ config.theme.colors.dark.box }};
+		}
+
+		td.emailbodytext p,
+		td.emailbodytext li,
+		td.speaker-info h4 {
+			color: {{ config.theme.colors.light.text }};
+		}
+
+		td.footer-donate-text,
+		span.footer-text,
+		td.footer-social a,
+		span.footer-links {
+			color: {{ config.theme.colors.light.text }} !important;
+		}
+
+		.logo-dark {
+			display: block;
+		}
+
+		.logo-light {
+			display: none;
+		}
+	}
+</style>
