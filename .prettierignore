@@ -1,2 +1,4 @@
 .husky/
 images/
+test.*
+**/config.js

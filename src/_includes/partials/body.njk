@@ -1,0 +1,13 @@
+{% include "partials/preheader.njk" %}
+{% include "partials/preheader-spacing.njk" %}
+<!-- BODY SECTION -->
+<table {{ config.theme.default.table | safe }}>
+	<tbody>
+		{% include "partials/logo.njk" %}
+		{% include "components/banner.njk" %}
+		<!-- CONTENT SECTION -->
+		<tr>
+			<td {{config.theme.default.td | safe }}>
+
+				{{ content | safe }}
+

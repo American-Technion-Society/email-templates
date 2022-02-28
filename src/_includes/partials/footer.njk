@@ -1,0 +1,62 @@
+						<!-- START OF FOOTER SECTION -->
+						<table class="dm-box emailwrapto100pc" role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="600" bgcolor="{{ config.theme.colors.light.box }}">
+							<tbody>
+								{% if mission  %}
+									<!-- MISSION SECTION -->
+									<tr>
+										<td align="left" class="footer-donate-text" style="color: {{ config.theme.colors.dark.smallText }};font-family: {{ config.theme.font.family }};font-size:12px;line-height:18px;padding: 20px 30px;">
+											<div>
+												The American Technion Society supports visionary education and world-changing impact through the Technion-Israel Institute of Technology. For more than 75 years, our nationwide supporter network has funded new Technion scholarships, research, labs, and facilities that have helped deliver world-changing contributions and extend Technion education to campuses in three countries. Our investments in the Technion's growth and innovation advance critical research and technologies that serve the State of Israel and the global good.
+											</div>
+										</td>
+									</tr>
+								{% endif %}
+								<!-- DETAIL SECTION -->
+								<tr>
+									<td style="text-align: left; font-family: {{ config.theme.font.family }}; font-size: 12px; color: {{ config.theme.colors.dark.smallText }}; line-height: 18px; padding: 20px 30px">
+										<table role="presentation" width="45%" cellpadding="0" cellspacing="0" border="0" align="left" class="footer-left">
+											<tbody>
+												<tr>
+													<td valign="top" class="footer-left">
+														<div>
+															<span class="footer-text">
+																{{ config.name }}<br />
+																{{ config.address.line1 }}, {{ config.address.city }}, {{ config.address.state }} {{ config.address.zip }}</span>
+														</div>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+										<table role="presentation" width="25%" cellspacing="0" cellpadding="0" border="0" align="right" class="footer-right">
+											<tbody>
+												<tr>
+													<td valign="top" class="footer-social" style="font-family: {{ config.theme.font.family }}; padding-top: 5px;">
+														<a style="color: {{config.theme.colors.dark.text}}" href="https://www.facebook.com/americantechnionsociety"><i class="fa-brands fa-facebook-f "></i></a>
+														&nbsp; &nbsp;
+														<a style="color: {{config.theme.colors.dark.text}}" href="https://twitter.com/TechnionUSA"><i class="fa-brands fa-twitter "></i></a>
+														&nbsp; &nbsp;
+														<a style="color: {{config.theme.colors.dark.text}}" href="https://www.instagram.com/americantechnionsociety"><i class="fa-brands fa-instagram "></i></a>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</td>
+								</tr>
+								<!-- LINK SECTION -->
+								<tr>
+									<td align="center" class="footer-text" style="font-family: {{ config.theme.font.family }}; line-height: 20px; padding: 15px; color: {{ config.theme.colors.dark.smallText }}">
+										<div>
+											<a href="{{config.links.home}}/contact-us/" style="text-decoration: none"><span class="footer-links" style="color: {{ config.theme.colors.dark.smallText }} font-size: 12px; font-weight: normal">Contact</span></a>
+											<span class="footer-text" style="font-size: 12px; line-height: 12px">|</span>
+											<a class="footer-links" href="http://support.ats.org/site/CO" style="text-decoration: none"><span style="color: {{ config.theme.colors.dark.smallText }} font-size: 12px; font-weight: normal" class="footer-links">Unsubscribe</span></a>
+										</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>
