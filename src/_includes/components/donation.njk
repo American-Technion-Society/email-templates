@@ -1,5 +1,5 @@
 <!-- DONATION SECTION -->
-<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" width="600" bgcolor="{{ config.theme.colors.test }}">
+<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" width="600" bgcolor="{{ config.theme.colors.dark.colorBox }}">
 	<tbody>
 		<!-- MESSAGE SECTION -->
 		<tr>
@@ -13,7 +13,24 @@
 		<!-- BUTTON SECTION -->
 		<tr>
 			<td align="center">
-				{% button "#ffffff", "#f7942f", "donate" %}
+				<div align="center">
+					<table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+						<tr>
+							<td align="center">
+								<table border="0" cellspacing="0" cellpadding="0" role="button">
+									<tr>
+										<td align="center" bgcolor="{{ config.theme.colors.goldfish }}">
+											<a href="{{ config.links.home }}" style="font-family: Arial, sans-serif; color: {{ config.theme.colors.white }}; padding: 12px 18px; border: 1px solid transparent; display: inline-block;font-size: {{ config.theme.font.size }};font-weight:bold;text-align:center;text-decoration:none;text-transform: uppercase;">
+												<span class="btn">donate</span>
+											</a>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+					<br />
+				</div>
 			</td>
 		</tr>
 	</tbody>
