@@ -42,12 +42,15 @@ module.exports = {
 			light: {
 				text: '#cecece',
 				box: '#f3f3f3',
+				box2: '#333333',
 				bg: '#ffffff',
 			},
 			dark: {
 				text: '#3c3532',
 				smallText: '#333333',
+				btn: '#545454',
 				box: '#252527',
+				colorBox: '#2b365e',
 				bg: '#1c1c1e',
 			}
 		},
