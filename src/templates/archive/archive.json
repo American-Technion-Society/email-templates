@@ -1,0 +1,4 @@
+{
+	"tags": ["templates", "archive"],
+	"permalink": "./archive/{{ page.fileSlug }}.html"
+}
