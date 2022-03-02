@@ -25,3 +25,11 @@ layout: index
 	<li style="margin-bottom:10px;"><a href="{{template.data.page.url}}"><strong>{{template.data.page.fileSlug | lower }}</strong></a></li>
 {%- endfor  -%}
 </ol>
+
+<h2>ATS Template Archives</h2>
+
+<ol>
+{%- for template in collections.archive  -%}
+	<li style="margin-bottom:10px;"><a href="{{template.data.page.url}}"><strong>{{template.data.page.fileSlug | lower }}</strong></a></li>
+{%- endfor  -%}
+</ol>
