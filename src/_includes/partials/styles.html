@@ -208,12 +208,19 @@
 		a,
 		a:visited,
 		a:hover,
-		a:active {
-			color: {{ config.theme.colors.altBlue }};
+		a:active,
+		div.event-headline-box h4,
+		div.feat-headline h4 {
+			color: {{ config.theme.colors.altRed }};
 		}
 
 		.dm-box {
 			background: {{ config.theme.colors.dark.box }};
+		}
+
+		.dm-share {
+			background: #39393b;
+			color: #999999;
 		}
 
 		td.emailbodytext p,
