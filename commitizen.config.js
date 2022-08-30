@@ -1,27 +1,27 @@
 const types = [
 	{
 		value: "feat",
-		name: "✨ feat:\tA new feature",
+		name: "✨ feat: A new feature",
 	},
 	{
 		value: "fix",
-		name: "🐞 fix:\t A bug fix",
+		name: "🐞 fix: A bug fix",
 	},
 	{
 		value: "chore",
-		name: "🔩 chore:\t Doesn't modify src or test files",
+		name: "🔩 chore: Doesn't modify src or test files",
 	},
 	{
 		value: "build",
-		name: "🚀 build:\t Build system config or external dependencies",
+		name: "🚀 build: Build system config or external dependencies",
 	},
 	{
 		value: "refactor",
-		name: "♻ refactor:\t Neither fixes a bug nor adds a feature",
+		name: "🔀 refactor: Neither fixes a bug nor adds a feature",
 	},
 	{
 		value: "revert",
-		name: "⏪ revert:\t Reverts a previous commit",
+		name: "⏪ revert: Reverts a previous commit",
 	},
 ];
 
@@ -35,7 +35,6 @@ module.exports = {
 	messages: {
 		type: "Type of change that you're committing:",
 		scope: "\nChoose the SCOPE of this change (optional):",
-		// used if allowCustomScopes is true
 		customScope: "Denote the SCOPE of this change:",
 		subject: "Write a SHORT, IMPERATIVE tense description of the change:\n",
 		body: "Provide a LONGER description of the change (optional):\n",
