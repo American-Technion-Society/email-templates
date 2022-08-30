@@ -2,6 +2,6 @@
 	"editor.formatOnSave": true,
 	"editor.formatOnPaste": true,
 	"files.exclude": {
-		"**/node_modules": false
+		"**/node_modules": true
 	}
 }
