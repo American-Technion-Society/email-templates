@@ -1,5 +1,7 @@
 # Changelog
 
+## [1.1.3](https://github.com/American-Technion-Society/email-templates/compare/v1.1.2...v1.1.3) (2022-08-30)
+
 ## [1.1.2](https://github.com/American-Technion-Society/email-templates/compare/v1.1.1...v1.1.2) (2022-08-30)
 
 ## [1.1.1](https://github.com/American-Technion-Society/email-templates/compare/v1.1.0...v1.1.1) (2021-10-07)
